@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.3.0] - 2025-07-13
+---
+#### Added
+- Add SVGR config and support with templating engine to transform SVG files into React components.
+
 ### [1.2.0] - 2025-06-22
 ---
 #### Added

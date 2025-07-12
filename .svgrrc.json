@@ -1,0 +1,14 @@
+{
+    "prettier": true,
+    "typescript": true,
+    "outDir": "src/icons",
+    "prettierConfig": "prettier.config.mjs",
+    "jsxRuntime": "automatic",
+    "svgo": true,
+    "config": ".svgrrc.json",
+    "svgProps": {
+        "stroke": "{color}",
+        "strokeWidth": "{strokeWidth}",
+        "fill": "{color}"
+    }
+}
