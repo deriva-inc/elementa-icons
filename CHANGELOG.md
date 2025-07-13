@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.4.0] - 2025-07-13
+---
+#### Added
+- Add height and width properties to icon components.
+
 ### [1.3.0] - 2025-07-13
 ---
 #### Added
