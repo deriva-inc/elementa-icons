@@ -1,4 +1,13 @@
 # CHANGELOG
+### [1.6.0] - 2025-07-15
+---
+#### Added
+- Add following icons:
+    - `ArrowDown`, `ArrowLeft`, and `ArrowUp` in **Arrows & Directions**
+    - `Cut`, `Copy` in **Editing & Creation**
+    - `Search` in **User Interface Controls**
+    - `Refresh` in **Saving & Data Management**
+
 ### [1.5.0] - 2025-07-15
 ---
 #### Added

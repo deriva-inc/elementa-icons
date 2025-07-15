@@ -11,8 +11,8 @@ import { IconComponentProps } from '@/src/lib/types'; // Import styles.
  * @version 1.0.0
  * @author Aayush Goyal
  * @created 2025-07-13
- * @modifier
- * @modified
+ * @modifier Aayush Goyal
+ * @modified 2025-07-15
  * @since 1.3.0
  */
 const ArrowLeft = ({

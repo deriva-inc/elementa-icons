@@ -14,7 +14,7 @@ import { IconComponentProps } from '@/src/lib/types';
  * @author Aayush Goyal
  * @created 2025-06-22
  * @modifier Aayush Goyal
- * @modified 2025-07-13
+ * @modified 2025-07-15
  * @since 1.1.0
  */
 const ArrowDown = ({
