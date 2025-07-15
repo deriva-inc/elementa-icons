@@ -7,6 +7,8 @@
     "svgo": true,
     "config": ".svgrrc.json",
     "svgProps": {
+        "height": "{height}",
+        "width": "{width}",
         "stroke": "{color}",
         "strokeWidth": "{strokeWidth}",
         "fill": "{color}"

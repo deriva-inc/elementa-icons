@@ -12,11 +12,11 @@ import type { Template } from '@/src/lib/types';
 /**
  * This function is a custom template for converting SVG icons to React components.
  *
- * @version 1.0.0
+ * @version 1.1.0
  * @author Aayush Goyal
- * @created 2023-10-05
- * @modifier
- * @modified
+ * @created 2025-07-13
+ * @modifier Aayush Goyal
+ * @modified 2025-07-15
  * @since 1.1.0
  */
 const iconTemplate: Template = (
@@ -26,7 +26,6 @@ const iconTemplate: Template = (
     console.log(props);
     // Remove 'Svg' from the export name if present
     const exportName = componentName.replace(/^Svg/, '');
-    const todaysDate = new Date().toISOString().split('T')[0];
 
     return tpl`
 ${imports};
@@ -48,14 +47,16 @@ import { IconComponentProps } from "@/src/lib/types";
  * @created Auto-generated
  * @modifier
  * @modified
- * @since Auto-generated
+ * @since 1.x.0
  */
 
 ${interfaces};
 
 const ${componentName.substring(3)} = ({
     color = '#000000',
+    height = '1em',
     strokeWidth = 1,
+    width = '1em'
 }: IconComponentProps) => {
   return (
     ${jsx}
