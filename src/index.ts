@@ -20,8 +20,12 @@
 // SECTION: Arrows & Direction
 import ArrowDown from '@/src/icons/arrows-directions/ArrowDown';
 import ArrowLeft from '@/src/icons/arrows-directions/ArrowLeft';
-// import ArrowRight from '@/src/icons/arrows-directions/ArrowRight';
+import ArrowRight from '@/src/icons/arrows-directions/ArrowRight';
 import ArrowUp from '@/src/icons/arrows-directions/ArrowUp';
+import ChevronDown from '@/src/icons/arrows-directions/ChevronDown';
+import ChevronLeft from '@/src/icons/arrows-directions/ChevronLeft';
+import ChevronRight from '@/src/icons/arrows-directions/ChevronRight';
+import ChevronUp from '@/src/icons/arrows-directions/ChevronUp';
 // !SECTION: Arrows & Direction
 // SECTION: Astronomy
 // !SECTION: Astronomy
@@ -177,7 +181,16 @@ import Refresh from '@/src/icons/saving-data-management/Refresh';
 // SECTION: Animals
 // !SECTION: Animals
 // SECTION: Arrows & Direction
-export { ArrowDown, ArrowLeft, ArrowUp };
+export {
+    ArrowDown,
+    ArrowLeft,
+    ArrowRight,
+    ArrowUp,
+    ChevronDown,
+    ChevronLeft,
+    ChevronRight,
+    ChevronUp
+};
 // !SECTION: Arrows & Direction
 // SECTION: Astronomy
 // !SECTION: Astronomy
