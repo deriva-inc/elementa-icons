@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.7.0] - 2025-09-08
+---
+#### Added
+- Add following icons:
+    - `ArrowRight`, `ChevronDown`, `ChevronLeft`, `ChevronRight` and `ChevronUp` in **Arrows & Directions**
+
 ### [1.6.0] - 2025-07-15
 ---
 #### Added

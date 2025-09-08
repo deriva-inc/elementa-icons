@@ -1,6 +1,6 @@
 {
     "name": "elementa-icons",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "description": "Elementa icons library.",
     "homepage": "https://elementa.dev",
     "main": "dist/index.js",
@@ -37,7 +37,7 @@
         "build:watch": "rollup -c -w",
         "prepublishOnly": "npm run build",
         "publish:npm": "npm publish --access public",
-        "svgr": "svgr src/icons/*.svg --template src/lib/icon-template.ts --expand-props none"
+        "svgr": "svgr src/icons/*.svg --template src/lib/icon-template.ts --expand-props none --ignore-existing"
     },
     "peerDependencies": {
         "react": "^19.1.0"
