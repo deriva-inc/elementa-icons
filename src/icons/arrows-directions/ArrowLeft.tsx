@@ -7,13 +7,6 @@ import { IconComponentProps } from '@/src/lib/types'; // Import styles.
 
 /**
  * This function renders an SVG icon of a left arrow.
- *
- * @version 1.0.0
- * @author Aayush Goyal
- * @created 2025-07-13
- * @modifier Aayush Goyal
- * @modified 2025-07-15
- * @since 1.3.0
  */
 const ArrowLeft = ({
     color = '#000000',

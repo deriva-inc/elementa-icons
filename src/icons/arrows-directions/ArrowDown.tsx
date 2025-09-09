@@ -9,13 +9,6 @@ import { IconComponentProps } from '@/src/lib/types';
 
 /**
  * This function renders an SVG icon of an arrow pointing downwards.
- *
- * @version 1.2.0
- * @author Aayush Goyal
- * @created 2025-06-22
- * @modifier Aayush Goyal
- * @modified 2025-07-15
- * @since 1.1.0
  */
 const ArrowDown = ({
     color = '#000000',
