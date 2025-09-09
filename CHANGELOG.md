@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.8.0] - 2025-09-09
+---
+#### Added
+- Add following icons:
+    - `Bitcoin`, `CreditCards`, `ShoppingCart`, and `Wallet` in **Finance & Shopping**
+
 ### [1.7.0] - 2025-09-08
 ---
 #### Added

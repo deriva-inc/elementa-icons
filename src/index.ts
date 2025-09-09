@@ -1,12 +1,5 @@
 /**
  * This file exports all the icons for the library.
- *
- * @version 1.2.0
- * @author Aayush Goyal
- * @created 2025-06-22
- * @modifier Aayush Goyal
- * @modified 2025-07-13
- * @since 1.1.0
  */
 // SECTION: Imports
 // SECTION: Accessibility
@@ -73,6 +66,12 @@ import Copy from '@/src/icons/editing-creation/Copy';
 // !SECTION: Files & Folders
 // SECTION: Film & Video
 // !SECTION: Film & Video
+// SECTION: Finance & Shopping
+import Bitcoin from '@/src/icons/finance-shopping/Bitcoin';
+import CreditCards from '@/src/icons/finance-shopping/CreditCards';
+import ShoppingCart from '@/src/icons/finance-shopping/ShoppingCart';
+import Wallet from '@/src/icons/finance-shopping/Wallet';
+// !SECTION
 // SECTION: Food & Beverage
 // !SECTION: Food & Beverage
 // SECTION: Gaming
@@ -127,8 +126,6 @@ import Copy from '@/src/icons/editing-creation/Copy';
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
 // !SECTION: Security & Privacy
-// SECTION: Finance & Shopping
-// !SECTION: Finance & Shopping
 // SECTION: Social & People
 // !SECTION: Social & People
 // SECTION: Spinners
@@ -238,6 +235,9 @@ export { Cut, Copy };
 // SECTION: Film & Video
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
+// SECTION: Finance & Shopping
+export { Bitcoin, CreditCards, ShoppingCart, Wallet };
+// !SECTION: Finance & Shopping
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
@@ -291,8 +291,6 @@ export { Cut, Copy };
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
 // !SECTION: Security & Privacy
-// SECTION: Finance & Shopping
-// !SECTION: Finance & Shopping
 // SECTION: Social & People
 // !SECTION: Social & People
 // SECTION: Spinners
