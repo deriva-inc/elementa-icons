@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.9.0] - 2025-09-09
+---
+#### Added
+- Add following icons:
+    - `Add`, `Edit`, and `Paste` in **Editing & Creation**
+
 ### [1.8.0] - 2025-09-09
 ---
 #### Added
