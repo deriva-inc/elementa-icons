@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.10.0] - 2025-09-10
+---
+#### Added
+- Add following icons:
+    - `Favorite (Outline)`, and `Favorite (Filled)` in **Interactions**
+
 ### [1.9.0] - 2025-09-09
 ---
 #### Added

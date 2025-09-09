@@ -53,8 +53,11 @@ import ChevronUp from '@/src/icons/arrows-directions/ChevronUp';
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis
 // SECTION: Editing & Creation
+import Add from '@/src/icons/editing-creation/Add';
 import Cut from '@/src/icons/editing-creation/Cut';
 import Copy from '@/src/icons/editing-creation/Copy';
+import Edit from '@/src/icons/editing-creation/Edit';
+import Paste from '@/src/icons/editing-creation/Paste';
 // !SECTION: Editing & Creation
 // SECTION: Education
 // !SECTION: Education
@@ -88,6 +91,10 @@ import Wallet from '@/src/icons/finance-shopping/Wallet';
 // !SECTION: Household
 // SECTION: Humanitarian
 // !SECTION: Humanitarian
+// SECTION: Interactions
+import FavoriteFilled from '@/src/icons/interactions/FavoriteFilled';
+import FavoriteOutline from '@/src/icons/interactions/FavoriteOutline';
+// !SECTION: Interactions
 // SECTION: Logistics
 // !SECTION: Logistics
 // SECTION: Location & Maps
@@ -154,8 +161,6 @@ import Search from '@/src/icons/user-interface-controls/Search';
 // SECTION: Saving & Data Management
 import Refresh from '@/src/icons/saving-data-management/Refresh';
 // !SECTION: Saving & Data Management
-// SECTION: Interactions
-// !SECTION: Interactions
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Logos (Common/Generic)
@@ -222,7 +227,7 @@ export {
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis
 // SECTION: Editing & Creation
-export { Cut, Copy };
+export { Add, Cut, Copy, Edit, Paste };
 // !SECTION: Editing & Creation
 // SECTION: Education
 // !SECTION: Education
@@ -234,15 +239,15 @@ export { Cut, Copy };
 // !SECTION: Files & Folders
 // SECTION: Film & Video
 // !SECTION: Film & Video
-// SECTION: Food & Beverage
 // SECTION: Finance & Shopping
 export { Bitcoin, CreditCards, ShoppingCart, Wallet };
 // !SECTION: Finance & Shopping
+// SECTION: Food & Beverage
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
 // SECTION: Genders
-// !SECTION
+// !SECTION: Genders
 // SECTION: Halloween
 // !SECTION: Halloween
 // SECTION: Hands
@@ -253,6 +258,9 @@ export { Bitcoin, CreditCards, ShoppingCart, Wallet };
 // !SECTION: Household
 // SECTION: Humanitarian
 // !SECTION: Humanitarian
+// SECTION: Interactions
+export { FavoriteFilled, FavoriteOutline };
+// !SECTION: Interactions
 // SECTION: Logistics
 // !SECTION: Logistics
 // SECTION: Location & Maps
@@ -319,8 +327,6 @@ export { Search };
 // SECTION: Saving & Data Management
 export { Refresh };
 // !SECTION: Saving & Data Management
-// SECTION: Interactions
-// !SECTION: Interactions
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Logos (Common/Generic)
