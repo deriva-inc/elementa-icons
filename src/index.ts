@@ -154,6 +154,9 @@ import FavoriteOutline from '@/src/icons/interactions/FavoriteOutline';
 // SECTION: Navigation & Menu
 // !SECTION: Navigation & Menu
 // SECTION: User Interface Controls
+import Cancel from '@/src/icons/user-interface-controls/Cancel';
+import Check from '@/src/icons/user-interface-controls/Check';
+import Filter from '@/src/icons/user-interface-controls/Filter';
 import Search from '@/src/icons/user-interface-controls/Search';
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
@@ -320,7 +323,7 @@ export { FavoriteFilled, FavoriteOutline };
 // SECTION: Navigation & Menu
 // !SECTION: Navigation & Menu
 // SECTION: User Interface Controls
-export { Search };
+export { Cancel, Check, Filter, Search };
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
 // !SECTION: Status & Notifications

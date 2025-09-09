@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.11.0] - 2025-09-10
+---
+#### Added
+- Add following icons:
+    - `Cancel`, `Check` and `Filter` in **User Interface Controls**
+
 ### [1.10.0] - 2025-09-10
 ---
 #### Added
