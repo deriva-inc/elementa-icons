@@ -1,4 +1,11 @@
 # CHANGELOG
+### [1.12.0] - 2025-09-15
+---
+#### Added
+- Add following icons:
+    - `Discord`, `Facebook`, `Instagram`, `LinkedIn`, `Reddit`, `Twitter` and `YouTube` in **Logos**
+    - `AddFriend` and `AddFriends` in **Social & People**
+
 ### [1.11.0] - 2025-09-10
 ---
 #### Added

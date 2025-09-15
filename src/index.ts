@@ -95,10 +95,19 @@ import Wallet from '@/src/icons/finance-shopping/Wallet';
 import FavoriteFilled from '@/src/icons/interactions/FavoriteFilled';
 import FavoriteOutline from '@/src/icons/interactions/FavoriteOutline';
 // !SECTION: Interactions
-// SECTION: Logistics
-// !SECTION: Logistics
 // SECTION: Location & Maps
 // !SECTION: Location & Maps
+// SECTION: Logos
+import Discord from '@/src/icons/logos/Discord';
+import Facebook from '@/src/icons/logos/Facebook';
+import Instagram from '@/src/icons/logos/Instagram';
+import LinkedIn from '@/src/icons/logos/LinkedIn';
+import Reddit from '@/src/icons/logos/Reddit';
+import Twitter from '@/src/icons/logos/Twitter';
+import YouTube from '@/src/icons/logos/Youtube';
+// !SECTION: Logos
+// SECTION: Logistics
+// !SECTION: Logistics
 // SECTION: Maritime
 // !SECTION: Maritime
 // SECTION: Marketing
@@ -132,6 +141,8 @@ import FavoriteOutline from '@/src/icons/interactions/FavoriteOutline';
 // SECTION: Science Fiction
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
+import Fingerprint from '@/src/icons/security-privacy/Fingerprint';
+import Logout from '@/src/icons/security-privacy/Logout';
 // !SECTION: Security & Privacy
 // SECTION: Social & People
 // !SECTION: Social & People
@@ -166,8 +177,6 @@ import Refresh from '@/src/icons/saving-data-management/Refresh';
 // !SECTION: Saving & Data Management
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
-// SECTION: Logos (Common/Generic)
-// !SECTION: Logos (Common/Generic)
 // SECTION: Balls & Equipment
 // !SECTION: Balls & Equipment
 // SECTION: Events & Awards
@@ -264,10 +273,13 @@ export { Bitcoin, CreditCards, ShoppingCart, Wallet };
 // SECTION: Interactions
 export { FavoriteFilled, FavoriteOutline };
 // !SECTION: Interactions
-// SECTION: Logistics
-// !SECTION: Logistics
 // SECTION: Location & Maps
 // !SECTION: Location & Maps
+// SECTION: Logistics
+// !SECTION: Logistics
+// SECTION: Logos
+export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
+// !SECTION: Logos
 // SECTION: Maritime
 // !SECTION: Maritime
 // SECTION: Marketing
@@ -301,6 +313,7 @@ export { FavoriteFilled, FavoriteOutline };
 // SECTION: Science Fiction
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
+export { Fingerprint, Logout };
 // !SECTION: Security & Privacy
 // SECTION: Social & People
 // !SECTION: Social & People
@@ -332,8 +345,6 @@ export { Refresh };
 // !SECTION: Saving & Data Management
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
-// SECTION: Logos (Common/Generic)
-// !SECTION: Logos (Common/Generic)
 // SECTION: Balls & Equipment
 // !SECTION: Balls & Equipment
 // SECTION: Events & Awards
