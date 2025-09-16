@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.13.0] - 2025-09-16
+---
+#### Added
+- Add following icons:
+    - `Calendar` and `Clock` in **Time & Calendar**.
+
 ### [1.12.0] - 2025-09-15
 ---
 #### Added

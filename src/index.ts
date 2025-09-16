@@ -104,7 +104,7 @@ import Instagram from '@/src/icons/logos/Instagram';
 import LinkedIn from '@/src/icons/logos/LinkedIn';
 import Reddit from '@/src/icons/logos/Reddit';
 import Twitter from '@/src/icons/logos/Twitter';
-import YouTube from '@/src/icons/logos/Youtube';
+import YouTube from '@/src/icons/logos/YouTube';
 // !SECTION: Logos
 // SECTION: Logistics
 // !SECTION: Logistics
@@ -145,12 +145,16 @@ import Fingerprint from '@/src/icons/security-privacy/Fingerprint';
 import Logout from '@/src/icons/security-privacy/Logout';
 // !SECTION: Security & Privacy
 // SECTION: Social & People
+import AddFriend from '@/src/icons/social-people/AddFriend';
+import AddFriends from '@/src/icons/social-people/AddFriends';
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Text Formatting
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
+import Calendar from '@/src/icons/time-calendar/Calendar';
+import Clock from '@/src/icons/time-calendar/Clock';
 // !SECTION: Time & Calendar
 // SECTION: Toggle
 // !SECTION: Toggle
@@ -316,12 +320,14 @@ export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 export { Fingerprint, Logout };
 // !SECTION: Security & Privacy
 // SECTION: Social & People
+export { AddFriend, AddFriends };
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Text Formatting
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
+export { Calendar, Clock };
 // !SECTION: Time & Calendar
 // SECTION: Toggle
 // !SECTION: Toggle

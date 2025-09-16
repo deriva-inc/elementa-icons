@@ -27,11 +27,6 @@ const Instagram = ({
                 strokeMiterlimit: 2
             }}
             viewBox="0 0 32 33"
-            height={height}
-            width={width}
-            stroke={color}
-            strokeWidth={strokeWidth}
-            fill={color}
         >
             <ellipse
                 cx={621.368}

@@ -27,11 +27,6 @@ const YouTube = ({
                 strokeMiterlimit: 2
             }}
             viewBox="0 0 33 23"
-            height={height}
-            width={width}
-            stroke={color}
-            strokeWidth={strokeWidth}
-            fill={color}
         >
             <path
                 d="M724 1425.29h31.271v22.253H724z"
