@@ -27,6 +27,7 @@ const Reddit = ({
                 strokeMiterlimit: 2
             }}
             viewBox="0 0 31 31"
+            height={height}
         >
             <g transform="matrix(.95823 0 0 .96677 -727.46 -1836.718)">
                 <path

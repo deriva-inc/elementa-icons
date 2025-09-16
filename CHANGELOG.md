@@ -1,4 +1,12 @@
 # CHANGELOG
+### [1.14.0] - 2025-09-16
+---
+#### Added
+- Add following icons:
+    - `Delete` in **Saving & Data Management**.
+    - `Info` in **Status & Notifications**.
+    - `Description` in **Text Formatting**.
+
 ### [1.13.0] - 2025-09-16
 ---
 #### Added

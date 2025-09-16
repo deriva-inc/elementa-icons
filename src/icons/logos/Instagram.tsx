@@ -27,6 +27,7 @@ const Instagram = ({
                 strokeMiterlimit: 2
             }}
             viewBox="0 0 32 33"
+            height={height}
         >
             <ellipse
                 cx={621.368}

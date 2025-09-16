@@ -151,6 +151,7 @@ import AddFriends from '@/src/icons/social-people/AddFriends';
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Text Formatting
+import Description from '@/src/icons/text-formatting/Description';
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
 import Calendar from '@/src/icons/time-calendar/Calendar';
@@ -175,8 +176,10 @@ import Filter from '@/src/icons/user-interface-controls/Filter';
 import Search from '@/src/icons/user-interface-controls/Search';
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
+import Info from '@/src/icons/status-notifications/Info';
 // !SECTION: Status & Notifications
 // SECTION: Saving & Data Management
+import Delete from '@/src/icons/saving-data-management/Delete';
 import Refresh from '@/src/icons/saving-data-management/Refresh';
 // !SECTION: Saving & Data Management
 // SECTION: Layout & Grid
@@ -325,6 +328,7 @@ export { AddFriend, AddFriends };
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Text Formatting
+export { Description };
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
 export { Calendar, Clock };
@@ -346,8 +350,9 @@ export { Cancel, Check, Filter, Search };
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
 // !SECTION: Status & Notifications
+export { Info };
 // SECTION: Saving & Data Management
-export { Refresh };
+export { Delete, Refresh };
 // !SECTION: Saving & Data Management
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
