@@ -11,14 +11,16 @@
 // SECTION: Animals
 // !SECTION: Animals
 // SECTION: Arrows & Direction
-import ArrowDown from '@/src/icons/arrows-directions/ArrowDown';
-import ArrowLeft from '@/src/icons/arrows-directions/ArrowLeft';
-import ArrowRight from '@/src/icons/arrows-directions/ArrowRight';
-import ArrowUp from '@/src/icons/arrows-directions/ArrowUp';
-import ChevronDown from '@/src/icons/arrows-directions/ChevronDown';
-import ChevronLeft from '@/src/icons/arrows-directions/ChevronLeft';
-import ChevronRight from '@/src/icons/arrows-directions/ChevronRight';
-import ChevronUp from '@/src/icons/arrows-directions/ChevronUp';
+import {
+    ArrowDown,
+    ArrowLeft,
+    ArrowRight,
+    ArrowUp,
+    ChevronDown,
+    ChevronLeft,
+    ChevronRight,
+    ChevronUp
+} from '@/src/icons/arrows-directions';
 // !SECTION: Arrows & Direction
 // SECTION: Astronomy
 // !SECTION: Astronomy
@@ -53,11 +55,7 @@ import ChevronUp from '@/src/icons/arrows-directions/ChevronUp';
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis
 // SECTION: Editing & Creation
-import Add from '@/src/icons/editing-creation/Add';
-import Cut from '@/src/icons/editing-creation/Cut';
-import Copy from '@/src/icons/editing-creation/Copy';
-import Edit from '@/src/icons/editing-creation/Edit';
-import Paste from '@/src/icons/editing-creation/Paste';
+import { Add, Cut, Copy, Edit, Paste } from '@/src/icons/editing-creation';
 // !SECTION: Editing & Creation
 // SECTION: Education
 // !SECTION: Education
@@ -69,47 +67,34 @@ import Paste from '@/src/icons/editing-creation/Paste';
 // !SECTION: Files & Folders
 // SECTION: Film & Video
 // !SECTION: Film & Video
-// SECTION: Finance & Shopping
-import Bitcoin from '@/src/icons/finance-shopping/Bitcoin';
-import CreditCards from '@/src/icons/finance-shopping/CreditCards';
-import ShoppingCart from '@/src/icons/finance-shopping/ShoppingCart';
-import Wallet from '@/src/icons/finance-shopping/Wallet';
-// !SECTION
 // SECTION: Food & Beverage
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
-// SECTION: Genders
-// !SECTION
-// SECTION: Halloween
-// !SECTION: Halloween
 // SECTION: Hands
 // !SECTION: Hands
 // SECTION: Holidays
 // !SECTION: Holidays
 // SECTION: Household
 // !SECTION: Household
-// SECTION: Humanitarian
-// !SECTION: Humanitarian
 // SECTION: Interactions
-import FavoriteFilled from '@/src/icons/interactions/FavoriteFilled';
-import FavoriteOutline from '@/src/icons/interactions/FavoriteOutline';
+import { FavoriteFilled, FavoriteOutline } from '@/src/icons/interactions';
 // !SECTION: Interactions
 // SECTION: Location & Maps
 // !SECTION: Location & Maps
 // SECTION: Logos
-import Discord from '@/src/icons/logos/Discord';
-import Facebook from '@/src/icons/logos/Facebook';
-import Instagram from '@/src/icons/logos/Instagram';
-import LinkedIn from '@/src/icons/logos/LinkedIn';
-import Reddit from '@/src/icons/logos/Reddit';
-import Twitter from '@/src/icons/logos/Twitter';
-import YouTube from '@/src/icons/logos/YouTube';
+import {
+    Discord,
+    Facebook,
+    Instagram,
+    LinkedIn,
+    Reddit,
+    Twitter,
+    YouTube
+} from '@/src/icons/logos';
 // !SECTION: Logos
 // SECTION: Logistics
 // !SECTION: Logistics
-// SECTION: Maritime
-// !SECTION: Maritime
 // SECTION: Marketing
 // !SECTION: Marketing
 // SECTION: Mathematics
@@ -119,9 +104,8 @@ import YouTube from '@/src/icons/logos/YouTube';
 // SECTION: Medical & Health
 // !SECTION: Medical & Health
 // SECTION: Money
+import { Bitcoin, CreditCards, Wallet } from '@/src/icons/money';
 // !SECTION: Money
-// SECTION: Moving
-// !SECTION: Moving
 // SECTION: Music & Audio
 // !SECTION: Music & Audio
 // SECTION: Nature & Environment
@@ -132,30 +116,33 @@ import YouTube from '@/src/icons/logos/YouTube';
 // !SECTION: Photos & Images
 // SECTION: Political
 // !SECTION: Political
-// SECTION: Shapes, Symbols & Punctuation
-// !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Religion
 // !SECTION: Religion
+// SECTION: Saving & Data Management
+import { Delete, Refresh } from '@/src/icons/saving-data-management';
+// !SECTION: Saving & Data Management
 // SECTION: Science
 // !SECTION: Science
 // SECTION: Science Fiction
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
-import Fingerprint from '@/src/icons/security-privacy/Fingerprint';
-import Logout from '@/src/icons/security-privacy/Logout';
+import { Fingerprint, Logout } from '@/src/icons/security-privacy';
 // !SECTION: Security & Privacy
+// SECTION: Shapes, Symbols & Punctuation
+// !SECTION: Shapes, Symbols & Punctuation
+// SECTION: Shopping
+import { ShoppingCart } from '@/src/icons/shopping/';
+// !SECTION: Shopping
 // SECTION: Social & People
-import AddFriend from '@/src/icons/social-people/AddFriend';
-import AddFriends from '@/src/icons/social-people/AddFriends';
+import { AddFriend, AddFriends } from '@/src/icons/social-people';
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Text Formatting
-import Description from '@/src/icons/text-formatting/Description';
+import { Description } from '@/src/icons/text-formatting';
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
-import Calendar from '@/src/icons/time-calendar/Calendar';
-import Clock from '@/src/icons/time-calendar/Clock';
+import { Calendar, Clock } from '@/src/icons/time-calendar';
 // !SECTION: Time & Calendar
 // SECTION: Toggle
 // !SECTION: Toggle
@@ -170,18 +157,16 @@ import Clock from '@/src/icons/time-calendar/Clock';
 // SECTION: Navigation & Menu
 // !SECTION: Navigation & Menu
 // SECTION: User Interface Controls
-import Cancel from '@/src/icons/user-interface-controls/Cancel';
-import Check from '@/src/icons/user-interface-controls/Check';
-import Filter from '@/src/icons/user-interface-controls/Filter';
-import Search from '@/src/icons/user-interface-controls/Search';
+import {
+    Cancel,
+    Check,
+    Filter,
+    Search
+} from '@/src/icons/user-interface-controls';
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
-import Info from '@/src/icons/status-notifications/Info';
+import { Info } from '@/src/icons/status-notifications';
 // !SECTION: Status & Notifications
-// SECTION: Saving & Data Management
-import Delete from '@/src/icons/saving-data-management/Delete';
-import Refresh from '@/src/icons/saving-data-management/Refresh';
-// !SECTION: Saving & Data Management
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Balls & Equipment
@@ -258,25 +243,16 @@ export { Add, Cut, Copy, Edit, Paste };
 // !SECTION: Files & Folders
 // SECTION: Film & Video
 // !SECTION: Film & Video
-// SECTION: Finance & Shopping
-export { Bitcoin, CreditCards, ShoppingCart, Wallet };
-// !SECTION: Finance & Shopping
 // SECTION: Food & Beverage
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
-// SECTION: Genders
-// !SECTION: Genders
-// SECTION: Halloween
-// !SECTION: Halloween
 // SECTION: Hands
 // !SECTION: Hands
 // SECTION: Holidays
 // !SECTION: Holidays
 // SECTION: Household
 // !SECTION: Household
-// SECTION: Humanitarian
-// !SECTION: Humanitarian
 // SECTION: Interactions
 export { FavoriteFilled, FavoriteOutline };
 // !SECTION: Interactions
@@ -287,8 +263,6 @@ export { FavoriteFilled, FavoriteOutline };
 // SECTION: Logos
 export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 // !SECTION: Logos
-// SECTION: Maritime
-// !SECTION: Maritime
 // SECTION: Marketing
 // !SECTION: Marketing
 // SECTION: Mathematics
@@ -298,9 +272,8 @@ export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 // SECTION: Medical & Health
 // !SECTION: Medical & Health
 // SECTION: Money
+export { Bitcoin, CreditCards, Wallet };
 // !SECTION: Money
-// SECTION: Moving
-// !SECTION: Moving
 // SECTION: Music & Audio
 // !SECTION: Music & Audio
 // SECTION: Nature & Environment
@@ -311,10 +284,11 @@ export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 // !SECTION: Photos & Images
 // SECTION: Political
 // !SECTION: Political
-// SECTION: Shapes, Symbols & Punctuation
-// !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Religion
 // !SECTION: Religion
+// SECTION: Saving & Data Management
+export { Delete, Refresh };
+// !SECTION: Saving & Data Management
 // SECTION: Science
 // !SECTION: Science
 // SECTION: Science Fiction
@@ -322,6 +296,11 @@ export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 // SECTION: Security & Privacy
 export { Fingerprint, Logout };
 // !SECTION: Security & Privacy
+// SECTION: Shapes, Symbols & Punctuation
+// !SECTION: Shapes, Symbols & Punctuation
+// SECTION: Shopping
+export { ShoppingCart };
+// !SECTION: Shopping
 // SECTION: Social & People
 export { AddFriend, AddFriends };
 // !SECTION: Social & People
@@ -351,9 +330,6 @@ export { Cancel, Check, Filter, Search };
 // SECTION: Status & Notifications
 // !SECTION: Status & Notifications
 export { Info };
-// SECTION: Saving & Data Management
-export { Delete, Refresh };
-// !SECTION: Saving & Data Management
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Balls & Equipment

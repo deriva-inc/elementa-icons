@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.15.0] - 2025-09-20
+---
+#### Added
+- Add category level export for better module management.
+
 ### [1.14.0] - 2025-09-16
 ---
 #### Added
