@@ -1,4 +1,12 @@
 # CHANGELOG
+### [1.21.0] - 2025-09-24
+---
+#### Added
+- Add following icons:
+    - `Dart` in **Sports**.
+    - `TickCloud` in **Status & Notifications**.
+    - `MetalBriefcase` in **Travel & Hotel**.
+
 ### [1.20.0] - 2025-09-24
 ---
 #### Added

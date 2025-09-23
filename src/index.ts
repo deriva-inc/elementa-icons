@@ -148,6 +148,9 @@ import { AddFriend, AddFriends } from '@/src/icons/social-people';
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
+// SECTION: Sports
+import { Dart } from '@/src/icons/sports';
+// !SECTION: Sports
 // SECTION: Text Formatting
 import { Description } from '@/src/icons/text-formatting';
 // !SECTION: Text Formatting
@@ -160,6 +163,7 @@ import { Calendar, Clock } from '@/src/icons/time-calendar';
 import { Airplane, Bus, Cab } from '@/src/icons/transportation';
 // !SECTION: Transportation
 // SECTION: Travel & Hotel
+import { MetalBriefcase } from '@/src/icons/travel-hotel';
 // !SECTION: Travel & Hotel
 // SECTION: Weather
 // !SECTION: Weather
@@ -176,7 +180,7 @@ import {
 } from '@/src/icons/user-interface-controls';
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
-import { Info } from '@/src/icons/status-notifications';
+import { Info, TickCloud } from '@/src/icons/status-notifications';
 // !SECTION: Status & Notifications
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
@@ -327,6 +331,9 @@ export { AddFriend, AddFriends };
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
+// SECTION: Sports
+export { Dart };
+// !SECTION: Sports
 // SECTION: Text Formatting
 export { Description };
 // !SECTION: Text Formatting
@@ -339,6 +346,7 @@ export { Calendar, Clock };
 export { Airplane, Bus, Cab };
 // !SECTION: Transportation
 // SECTION: Travel & Hotel
+export { MetalBriefcase };
 // !SECTION: Travel & Hotel
 // SECTION: Weather
 // !SECTION: Weather
@@ -351,7 +359,7 @@ export { Cancel, Check, Filter, Search };
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
 // !SECTION: Status & Notifications
-export { Info };
+export { Info, TickCloud };
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Balls & Equipment
