@@ -10,7 +10,7 @@ import { IconComponentProps } from '@/src/lib/types';
 /**
  * This function renders an SVG icon of an airpodes pair.
  */
-const Airpodes = ({
+const Airpods = ({
     color = '#000000',
     height = '1em',
     strokeWidth = 1,
@@ -40,4 +40,4 @@ const Airpodes = ({
     );
 };
 
-export default Airpodes;
+export default Airpods;

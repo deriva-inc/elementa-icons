@@ -39,6 +39,7 @@ import {
 // SECTION: Childhood
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
+import { DiamondRing } from '@/src/icons/clothing-fashion';
 // !SECTION: Clothing & Fashion
 // SECTION: Coding
 // !SECTION: Coding
@@ -51,7 +52,7 @@ import {
 // SECTION: Design
 // !SECTION: Design
 // SECTION: Devices & Hardware
-import { Airpodes, Devices, USBACable } from '@/src/icons/devices-hardware';
+import { Airpods, Devices, USBACable } from '@/src/icons/devices-hardware';
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis
@@ -59,6 +60,7 @@ import { Airpodes, Devices, USBACable } from '@/src/icons/devices-hardware';
 import { Add, Cut, Copy, Edit, Paste } from '@/src/icons/editing-creation';
 // !SECTION: Editing & Creation
 // SECTION: Education
+import { OpenBook } from '@/src/icons/education';
 // !SECTION: Education
 // SECTION: Emoji & Emoticons
 // !SECTION: Emoji & Emoticons
@@ -69,6 +71,7 @@ import { Add, Cut, Copy, Edit, Paste } from '@/src/icons/editing-creation';
 // SECTION: Film & Video
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
+import { EatenApple } from '@/src/icons/food-beverage';
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
@@ -217,6 +220,7 @@ export {
 // SECTION: Childhood
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
+export { DiamondRing };
 // !SECTION: Clothing & Fashion
 // SECTION: Coding
 // !SECTION: Coding
@@ -229,7 +233,7 @@ export {
 // SECTION: Design
 // !SECTION: Design
 // SECTION: Devices & Hardware
-export { Airpodes, Devices, USBACable };
+export { Airpods, Devices, USBACable };
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis
@@ -237,6 +241,7 @@ export { Airpodes, Devices, USBACable };
 export { Add, Cut, Copy, Edit, Paste };
 // !SECTION: Editing & Creation
 // SECTION: Education
+export { OpenBook };
 // !SECTION: Education
 // SECTION: Emoji & Emoticons
 // !SECTION: Emoji & Emoticons
@@ -247,6 +252,7 @@ export { Add, Cut, Copy, Edit, Paste };
 // SECTION: Film & Video
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
+export { EatenApple };
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming

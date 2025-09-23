@@ -1,4 +1,12 @@
 # CHANGELOG
+### [1.18.0] - 2025-09-23
+---
+#### Added
+- Add following icons:
+    - `DiamondRing` in **Clothing & Fashion**.
+    - `OpenBook` in **Education**.
+    - `EatenApple` in **Food & Beverage**.
+
 ### [1.17.0] - 2025-09-23
 ---
 #### Added
