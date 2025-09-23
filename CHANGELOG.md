@@ -1,4 +1,12 @@
 # CHANGELOG
+### [1.19.0] - 2025-09-24
+---
+#### Added
+- Add following icons:
+    - `Palm` in **Hands**.
+    - `Balloon`, and `GiftBox` in **Holidays**.
+    - `Sofa` in **Household**.
+
 ### [1.18.0] - 2025-09-23
 ---
 #### Added

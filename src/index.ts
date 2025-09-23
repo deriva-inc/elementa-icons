@@ -76,10 +76,13 @@ import { EatenApple } from '@/src/icons/food-beverage';
 // SECTION: Gaming
 // !SECTION: Gaming
 // SECTION: Hands
+import { Palm } from '@/src/icons/hands';
 // !SECTION: Hands
 // SECTION: Holidays
+import { Balloon, GiftBox } from '@/src/icons/holidays';
 // !SECTION: Holidays
 // SECTION: Household
+import { Sofa } from '@/src/icons/household';
 // !SECTION: Household
 // SECTION: Interactions
 import { FavoriteFilled, FavoriteOutline } from '@/src/icons/interactions';
@@ -257,10 +260,13 @@ export { EatenApple };
 // SECTION: Gaming
 // !SECTION: Gaming
 // SECTION: Hands
+export { Palm };
 // !SECTION: Hands
 // SECTION: Holidays
+export { Balloon, GiftBox };
 // !SECTION: Holidays
 // SECTION: Household
+export { Sofa };
 // !SECTION: Household
 // SECTION: Interactions
 export { FavoriteFilled, FavoriteOutline };
