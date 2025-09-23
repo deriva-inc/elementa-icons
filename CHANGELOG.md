@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.16.0] - 2025-09-23
+---
+#### Added
+- Add following icons:
+    - `Airplane`, `Bus`, and `Cab` in **Transportation**.
+
 ### [1.15.0] - 2025-09-20
 ---
 #### Added

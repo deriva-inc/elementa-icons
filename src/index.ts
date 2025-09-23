@@ -147,6 +147,7 @@ import { Calendar, Clock } from '@/src/icons/time-calendar';
 // SECTION: Toggle
 // !SECTION: Toggle
 // SECTION: Transportation
+import { Airplane, Bus, Cab } from '@/src/icons/transportation';
 // !SECTION: Transportation
 // SECTION: Travel & Hotel
 // !SECTION: Travel & Hotel
@@ -315,6 +316,7 @@ export { Calendar, Clock };
 // SECTION: Toggle
 // !SECTION: Toggle
 // SECTION: Transportation
+export { Airplane, Bus, Cab };
 // !SECTION: Transportation
 // SECTION: Travel & Hotel
 // !SECTION: Travel & Hotel
