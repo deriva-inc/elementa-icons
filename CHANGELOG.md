@@ -1,4 +1,13 @@
 # CHANGELOG
+### [1.20.0] - 2025-09-24
+---
+#### Added
+- Add following icons:
+    - `Mic` in **Music & Audio**.
+    - `Fire` in **Nature & Environment**.
+    - `Flag` in **Political**.
+    - `Discount` in **Shopping**.
+
 ### [1.19.0] - 2025-09-24
 ---
 #### Added

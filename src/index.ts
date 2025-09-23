@@ -114,14 +114,17 @@ import {
 import { Bitcoin, CreditCards, Wallet } from '@/src/icons/money';
 // !SECTION: Money
 // SECTION: Music & Audio
+import { Mic } from '@/src/icons/music-audio';
 // !SECTION: Music & Audio
 // SECTION: Nature & Environment
+import { Fire } from '@/src/icons/nature-environment';
 // !SECTION: Nature & Environment
 // SECTION: Numbers
 // !SECTION: Numbers
 // SECTION: Photos & Images
 // !SECTION: Photos & Images
 // SECTION: Political
+import { Flag } from '@/src/icons/political';
 // !SECTION: Political
 // SECTION: Religion
 // !SECTION: Religion
@@ -138,7 +141,7 @@ import { Fingerprint, Logout } from '@/src/icons/security-privacy';
 // SECTION: Shapes, Symbols & Punctuation
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
-import { ShoppingCart } from '@/src/icons/shopping/';
+import { Discount, ShoppingCart } from '@/src/icons/shopping/';
 // !SECTION: Shopping
 // SECTION: Social & People
 import { AddFriend, AddFriends } from '@/src/icons/social-people';
@@ -290,14 +293,17 @@ export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 export { Bitcoin, CreditCards, Wallet };
 // !SECTION: Money
 // SECTION: Music & Audio
+export { Mic };
 // !SECTION: Music & Audio
 // SECTION: Nature & Environment
+export { Fire };
 // !SECTION: Nature & Environment
 // SECTION: Numbers
 // !SECTION: Numbers
 // SECTION: Photos & Images
 // !SECTION: Photos & Images
 // SECTION: Political
+export { Flag };
 // !SECTION: Political
 // SECTION: Religion
 // !SECTION: Religion
@@ -314,7 +320,7 @@ export { Fingerprint, Logout };
 // SECTION: Shapes, Symbols & Punctuation
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
-export { ShoppingCart };
+export { Discount, ShoppingCart };
 // !SECTION: Shopping
 // SECTION: Social & People
 export { AddFriend, AddFriends };

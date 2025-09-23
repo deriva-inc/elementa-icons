@@ -1,6 +1,6 @@
 {
     "name": "elementa-icons",
-    "version": "1.19.0",
+    "version": "1.20.0",
     "description": "Elementa icons library.",
     "homepage": "https://elementa.dev",
     "main": "dist/index.js",
