@@ -51,6 +51,7 @@ import {
 // SECTION: Design
 // !SECTION: Design
 // SECTION: Devices & Hardware
+import { Airpodes, Devices, USBACable } from '@/src/icons/devices-hardware';
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis
@@ -228,6 +229,7 @@ export {
 // SECTION: Design
 // !SECTION: Design
 // SECTION: Devices & Hardware
+export { Airpodes, Devices, USBACable };
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
 // !SECTION: Disaster & Crisis

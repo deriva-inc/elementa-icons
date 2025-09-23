@@ -1,4 +1,10 @@
 # CHANGELOG
+### [1.17.0] - 2025-09-23
+---
+#### Added
+- Add following icons:
+    - `Airpodes`, `Devices`, and `USB-A Cable` in **Devices & Hardware**.
+
 ### [1.16.0] - 2025-09-23
 ---
 #### Added
