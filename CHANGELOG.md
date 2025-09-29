@@ -1,4 +1,12 @@
 # CHANGELOG
+### [1.22.0] - 2025-09-29
+---
+#### Added
+- Add following icons:
+    - `BeerMug`, `Cake`, `Cutlery`, `FoodTiffin`, `GreenTea`, and `PotatoChips` in **Food & Beverage**.
+    - `Appliances` in **Household**.
+    - `Basketball` in **Sports**.
+
 ### [1.21.0] - 2025-09-24
 ---
 #### Added

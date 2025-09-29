@@ -71,7 +71,15 @@ import { OpenBook } from '@/src/icons/education';
 // SECTION: Film & Video
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
-import { EatenApple } from '@/src/icons/food-beverage';
+import {
+    BeerMug,
+    Cake,
+    Cutlery,
+    EatenApple,
+    FoodTiffin,
+    GreenTea,
+    PotatoChips
+} from '@/src/icons/food-beverage';
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
@@ -82,7 +90,7 @@ import { Palm } from '@/src/icons/hands';
 import { Balloon, GiftBox } from '@/src/icons/holidays';
 // !SECTION: Holidays
 // SECTION: Household
-import { Sofa } from '@/src/icons/household';
+import { Appliances, Sofa } from '@/src/icons/household';
 // !SECTION: Household
 // SECTION: Interactions
 import { FavoriteFilled, FavoriteOutline } from '@/src/icons/interactions';
@@ -149,7 +157,7 @@ import { AddFriend, AddFriends } from '@/src/icons/social-people';
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Sports
-import { Dart } from '@/src/icons/sports';
+import { Basketball, Dart } from '@/src/icons/sports';
 // !SECTION: Sports
 // SECTION: Text Formatting
 import { Description } from '@/src/icons/text-formatting';
@@ -262,7 +270,15 @@ export { OpenBook };
 // SECTION: Film & Video
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
-export { EatenApple };
+export {
+    BeerMug,
+    Cake,
+    Cutlery,
+    EatenApple,
+    FoodTiffin,
+    GreenTea,
+    PotatoChips
+};
 // !SECTION: Food & Beverage
 // SECTION: Gaming
 // !SECTION: Gaming
@@ -273,7 +289,7 @@ export { Palm };
 export { Balloon, GiftBox };
 // !SECTION: Holidays
 // SECTION: Household
-export { Sofa };
+export { Appliances, Sofa };
 // !SECTION: Household
 // SECTION: Interactions
 export { FavoriteFilled, FavoriteOutline };
@@ -332,7 +348,7 @@ export { AddFriend, AddFriends };
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Sports
-export { Dart };
+export { Basketball, Dart };
 // !SECTION: Sports
 // SECTION: Text Formatting
 export { Description };
