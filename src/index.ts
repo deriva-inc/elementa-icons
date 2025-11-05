@@ -192,10 +192,6 @@ import { Info, TickCloud } from '@/src/icons/status-notifications';
 // !SECTION: Status & Notifications
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
-// SECTION: Balls & Equipment
-// !SECTION: Balls & Equipment
-// SECTION: Events & Awards
-// !SECTION: Events & Awards
 // SECTION: Activities
 // !SECTION: Activities
 // !SECTION: Imports
@@ -378,10 +374,6 @@ export { Cancel, Check, Filter, Search };
 export { Info, TickCloud };
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
-// SECTION: Balls & Equipment
-// !SECTION: Balls & Equipment
-// SECTION: Events & Awards
-// !SECTION: Events & Awards
 // SECTION: Activities
 // !SECTION: Activities
 // !SECTION: Exports
