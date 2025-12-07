@@ -1,22 +1,13 @@
-// Import global from third party libraries.
-
-// Import custom components.
-
-// Import custom utilities.
-
-// Import custom types.
-import type { Template } from '@/src/lib/types';
-
-// Import styles.
-
 /**
  * This function is a custom template for converting SVG icons to React components.
  */
-const iconTemplate: Template = (
+const iconTemplate = (
     { imports, interfaces, componentName, props, jsx, exports },
     { tpl }
 ) => {
+    // Remove 'Svg' prefix if present to get a clean name
     const exportName = componentName.replace(/^Svg/, '');
+    const cleanComponentName = componentName.substring(3);
 
     return tpl`
 ${imports};
@@ -31,12 +22,11 @@ import { IconComponentProps } from "@/src/lib/types";
 // Import styles.
 
 /**
- * This function renders an SVG icon of a {auto-generated}.
+ * This function renders an SVG icon.
  */
-
 ${interfaces};
 
-const ${componentName.substring(3)} = ({
+const ${cleanComponentName} = ({
     color = '#000000',
     height = '1em',
     strokeWidth = 1,
@@ -46,8 +36,9 @@ const ${componentName.substring(3)} = ({
     ${jsx}
   )
 };
+
 export default ${exportName};
 `;
 };
 
-export default iconTemplate;
+module.exports = iconTemplate;

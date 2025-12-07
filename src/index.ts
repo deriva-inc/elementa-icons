@@ -168,7 +168,18 @@ import { Calendar, Clock } from '@/src/icons/time-calendar';
 // SECTION: Toggle
 // !SECTION: Toggle
 // SECTION: Transportation
-import { Airplane, Bus, Cab } from '@/src/icons/transportation';
+import {
+    Airplane,
+    Bus,
+    Cab,
+    Car1,
+    Car2,
+    CarService,
+    FuelDispenserNozzle,
+    Parking,
+    Train,
+    Tram
+} from '@/src/icons/transportation';
 // !SECTION: Transportation
 // SECTION: Travel & Hotel
 import { MetalBriefcase } from '@/src/icons/travel-hotel';
@@ -355,7 +366,18 @@ export { Calendar, Clock };
 // SECTION: Toggle
 // !SECTION: Toggle
 // SECTION: Transportation
-export { Airplane, Bus, Cab };
+export {
+    Airplane,
+    Bus,
+    Cab,
+    Car1,
+    Car2,
+    CarService,
+    FuelDispenserNozzle,
+    Parking,
+    Train,
+    Tram
+};
 // !SECTION: Transportation
 // SECTION: Travel & Hotel
 export { MetalBriefcase };
