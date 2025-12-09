@@ -9,6 +9,7 @@
 // SECTION: Alphabet
 // !SECTION: Alphabet
 // SECTION: Animals
+import { DogPaw } from '@/src/icons/animals/';
 // !SECTION: Animals
 // SECTION: Arrows & Direction
 import {
@@ -214,7 +215,8 @@ import { Info, TickCloud } from '@/src/icons/status-notifications';
 // !SECTION: Alert
 // SECTION: Alphabet
 // !SECTION: Alphabet
-// SECTION: Animals
+// SECTION:
+export { DogPaw };
 // !SECTION: Animals
 // SECTION: Arrows & Direction
 export {

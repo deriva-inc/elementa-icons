@@ -155,7 +155,10 @@ yarn build
 - [ ] New icon appears under specified category /icons
 
 ## 3.6 How to create and open a PR?
-Depending on the type of work, please name your branch `feat/*` or `bugfix/*`. Branches not adhering to nomenclature will not open a PR to master.
+- Depending on the type of work, please name your branch `feat/*` or `bugfix/*`. Branches not adhering to nomenclature will not open a PR to master.
+- If you have added new icons, commit message should read: `add icons under [category] category`
+- Each commit message should also have your signature in the format: `Signed-off-by: [Your GitHub Name] <your_github_email>`
+- Commit message should follow [conventional commit guides](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
 
 ## 3.7 Publishing New Version
 When a PR is merger to the master branch the GitHub Action workflow file automatically pushed the new version of the library to npm.

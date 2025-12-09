@@ -1,4 +1,19 @@
 # CHANGELOG
+### [1.26.0] - 2025-11-09
+---
+#### Added
+- Add `DogPaw` icon under **Animals** category.
+
+### [1.25.0] - 2025-11-07
+---
+#### Added
+- Add `Car1`, `Car2`, `CarService`, `FuelDispenserNozzle`, `Parking`, `Train`, and `Tram` icons under **Transportation** category.
+
+### [1.24.0] - 2025-12-06
+---
+#### Added
+- Add CONTRIBUTING file.
+
 ### [1.23.0] - 2025-11-06
 ---
 #### Added
