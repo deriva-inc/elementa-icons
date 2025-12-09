@@ -188,6 +188,7 @@ import { MetalBriefcase } from '@/src/icons/travel-hotel';
 // SECTION: Weather
 // !SECTION: Weather
 // SECTION: Writing
+import { Checklist, Notepad } from '@/src/icons/writing/';
 // !SECTION: Writing
 // SECTION: Navigation & Menu
 // !SECTION: Navigation & Menu
@@ -387,6 +388,7 @@ export { MetalBriefcase };
 // SECTION: Weather
 // !SECTION: Weather
 // SECTION: Writing
+export { Checklist, Notepad };
 // !SECTION: Writing
 // SECTION: Navigation & Menu
 // !SECTION: Navigation & Menu

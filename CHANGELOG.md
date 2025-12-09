@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.27.0] - 2025-11-09
+---
+#### Added
+- Add `Checklist` and `Notepad` icon under **Writing** category.
+
 ### [1.26.0] - 2025-11-09
 ---
 #### Added
