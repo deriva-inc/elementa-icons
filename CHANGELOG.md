@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.28.0] - 2025-11-09
+---
+#### Added
+- Add `Loudspeaker` icon under **Marketing** category.
+
 ### [1.27.0] - 2025-11-09
 ---
 #### Added

@@ -112,6 +112,7 @@ import {
 // SECTION: Logistics
 // !SECTION: Logistics
 // SECTION: Marketing
+import { Loudspeaker } from '@/src/icons/marketing/';
 // !SECTION: Marketing
 // SECTION: Mathematics
 // !SECTION: Mathematics
@@ -312,6 +313,7 @@ export { FavoriteFilled, FavoriteOutline };
 export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 // !SECTION: Logos
 // SECTION: Marketing
+export { Loudspeaker };
 // !SECTION: Marketing
 // SECTION: Mathematics
 // !SECTION: Mathematics
