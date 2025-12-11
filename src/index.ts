@@ -27,6 +27,7 @@ import {
 import { Rocket } from '@/src/icons/astronomy/';
 // !SECTION: Astronomy
 // SECTION: Automotive
+import { Gear, ToolBox } from '@/src/icons/automotive/';
 // !SECTION: Automotive
 // SECTION: Buildings
 // !SECTION: Buildings
@@ -237,6 +238,7 @@ export {
 export { Rocket };
 // !SECTION: Astronomy
 // SECTION: Automotive
+export { Gear, ToolBox };
 // !SECTION: Automotive
 // SECTION: Buildings
 // !SECTION: Buildings

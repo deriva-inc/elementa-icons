@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.30.0] - 2025-11-12
+---
+#### Added
+- Add `Gear` and `ToolBox` icon under **Automotive** category.
+
 ### [1.29.0] - 2025-11-12
 ---
 #### Added
