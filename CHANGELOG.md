@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.29.0] - 2025-11-12
+---
+#### Added
+- Add `Rocket` icon under **Astronomy** category.
+
 ### [1.28.0] - 2025-11-09
 ---
 #### Added

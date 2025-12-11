@@ -24,6 +24,7 @@ import {
 } from '@/src/icons/arrows-directions';
 // !SECTION: Arrows & Direction
 // SECTION: Astronomy
+import { Rocket } from '@/src/icons/astronomy/';
 // !SECTION: Astronomy
 // SECTION: Automotive
 // !SECTION: Automotive
@@ -233,6 +234,7 @@ export {
 };
 // !SECTION: Arrows & Direction
 // SECTION: Astronomy
+export { Rocket };
 // !SECTION: Astronomy
 // SECTION: Automotive
 // !SECTION: Automotive
