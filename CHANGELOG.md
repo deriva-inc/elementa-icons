@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.31.0] - 2025-11-12
+---
+#### Added
+- Add `Cityline`, `Home1`, `Home2`, and `Home3` icon under **Buildings** category.
+
 ### [1.30.0] - 2025-11-12
 ---
 #### Added

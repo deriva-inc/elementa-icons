@@ -30,6 +30,7 @@ import { Rocket } from '@/src/icons/astronomy/';
 import { Gear, ToolBox } from '@/src/icons/automotive/';
 // !SECTION: Automotive
 // SECTION: Buildings
+import { Cityline, Home1, Home2, Home3 } from '@/src/icons/buildings/';
 // !SECTION: Buildings
 // SECTION: Business
 // !SECTION: Business
@@ -241,6 +242,7 @@ export { Rocket };
 export { Gear, ToolBox };
 // !SECTION: Automotive
 // SECTION: Buildings
+export { Cityline, Home1, Home2, Home3 };
 // !SECTION: Buildings
 // SECTION: Business
 // !SECTION: Business

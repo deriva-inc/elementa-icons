@@ -35,12 +35,6 @@ const Rocket = ({
             fill={color}
         >
             <g transform="matrix(1.00071 0 0 .9996 -645.472 -1955.937)">
-                <path
-                    d="M645.215 1957.25h31.033v30.737h-31.033z"
-                    style={{
-                        fill: 'none'
-                    }}
-                />
                 <clipPath id="rocket_svg__a">
                     <path d="M645.215 1957.25h31.033v30.737h-31.033z" />
                 </clipPath>
