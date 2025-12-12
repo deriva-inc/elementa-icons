@@ -1,13 +1,18 @@
 # CHANGELOG
+### [1.32.0] - 2025-11-12
+---
+#### Added
+- Add `Briefcase` and `CareerGrowth` icon under **Business** category.
+
 ### [1.31.0] - 2025-11-12
 ---
 #### Added
-- Add `Cityline`, `Home1`, `Home2`, and `Home3` icon under **Buildings** category.
+- Add `Cityline`, `Home1`, `Home2`, and `Home3` icons under **Buildings** category.
 
 ### [1.30.0] - 2025-11-12
 ---
 #### Added
-- Add `Gear` and `ToolBox` icon under **Automotive** category.
+- Add `Gear` and `ToolBox` icons under **Automotive** category.
 
 ### [1.29.0] - 2025-11-12
 ---
@@ -22,7 +27,7 @@
 ### [1.27.0] - 2025-11-09
 ---
 #### Added
-- Add `Checklist` and `Notepad` icon under **Writing** category.
+- Add `Checklist` and `Notepad` icons under **Writing** category.
 
 ### [1.26.0] - 2025-11-09
 ---

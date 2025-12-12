@@ -33,6 +33,7 @@ import { Gear, ToolBox } from '@/src/icons/automotive/';
 import { Cityline, Home1, Home2, Home3 } from '@/src/icons/buildings/';
 // !SECTION: Buildings
 // SECTION: Business
+import { Briefcase, CareerGrowth } from '@/src/icons/business/';
 // !SECTION: Business
 // SECTION: Camping
 // !SECTION: Camping
@@ -245,6 +246,7 @@ export { Gear, ToolBox };
 export { Cityline, Home1, Home2, Home3 };
 // !SECTION: Buildings
 // SECTION: Business
+export { Briefcase, CareerGrowth };
 // !SECTION: Business
 // SECTION: Camping
 // !SECTION: Camping
