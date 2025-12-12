@@ -34,12 +34,6 @@ const Briefcase = ({
             fill={color}
         >
             <g transform="matrix(1.00334 0 0 1.0003 -742.506 -535.171)">
-                <path
-                    d="M740.472 536h29.401v26.488h-29.401z"
-                    style={{
-                        fill: 'none'
-                    }}
-                />
                 <clipPath id="briefcase_svg__a">
                     <path d="M740.472 536h29.401v26.488h-29.401z" />
                 </clipPath>

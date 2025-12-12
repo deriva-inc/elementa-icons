@@ -44,7 +44,15 @@ import { Briefcase, CareerGrowth } from '@/src/icons/business/';
 // SECTION: Childhood
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
-import { DiamondRing } from '@/src/icons/clothing-fashion';
+import {
+    Beard,
+    CombScissors,
+    DiamondRing,
+    Hanger,
+    Necklace,
+    SkinCare,
+    Tshirt
+} from '@/src/icons/clothing-fashion';
 // !SECTION: Clothing & Fashion
 // SECTION: Coding
 // !SECTION: Coding
@@ -257,7 +265,7 @@ export { Briefcase, CareerGrowth };
 // SECTION: Childhood
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
-export { DiamondRing };
+export { Beard, CombScissors, DiamondRing, Hanger, Necklace, SkinCare, Tshirt };
 // !SECTION: Clothing & Fashion
 // SECTION: Coding
 // !SECTION: Coding

@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.33.0] - 2025-11-12
+---
+#### Added
+- Add `Beard`, `CombScissors`, `Hanger`, `Necklace`, `SkinCare` and `Tshirt` icon under **Business** category.
+
 ### [1.32.0] - 2025-11-12
 ---
 #### Added
