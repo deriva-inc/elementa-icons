@@ -1,13 +1,18 @@
 # CHANGELOG
+### [1.34.0] - 2025-11-16
+---
+#### Added
+- Add `PieChart` and `Stocks` icons under **Charts & Graphs** category.
+
 ### [1.33.0] - 2025-11-12
 ---
 #### Added
-- Add `Beard`, `CombScissors`, `Hanger`, `Necklace`, `SkinCare` and `Tshirt` icon under **Business** category.
+- Add `Beard`, `CombScissors`, `Hanger`, `Necklace`, `SkinCare` and `Tshirt` icons under **Business** category.
 
 ### [1.32.0] - 2025-11-12
 ---
 #### Added
-- Add `Briefcase` and `CareerGrowth` icon under **Business** category.
+- Add `Briefcase` and `CareerGrowth` icons under **Business** category.
 
 ### [1.31.0] - 2025-11-12
 ---

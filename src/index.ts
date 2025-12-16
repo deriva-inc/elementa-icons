@@ -40,6 +40,7 @@ import { Briefcase, CareerGrowth } from '@/src/icons/business/';
 // SECTION: Charity
 // !SECTION: Charity
 // SECTION: Charts & Graphs
+import { PieChart, Stocks } from '@/src/icons/charts-graphs';
 // !SECTION: Charts & Graphs
 // SECTION: Childhood
 // !SECTION: Childhood
@@ -261,6 +262,7 @@ export { Briefcase, CareerGrowth };
 // SECTION: Charity
 // !SECTION: Charity
 // SECTION: Charts & Graphs
+export { PieChart, Stocks };
 // !SECTION: Charts & Graphs
 // SECTION: Childhood
 // !SECTION: Childhood
