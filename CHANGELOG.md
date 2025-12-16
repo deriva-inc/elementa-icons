@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.37.0] - 2025-12-16
+---
+#### Added
+- Add `Siren` icon under **Disaster and Crisis** category.
+
 ### [1.36.0] - 2025-12-16
 ---
 #### Added

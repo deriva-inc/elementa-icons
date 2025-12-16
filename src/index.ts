@@ -71,6 +71,7 @@ import { ElectricPlug } from '@/src/icons/communication';
 import { Airpods, Devices, USBACable } from '@/src/icons/devices-hardware';
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
+import { Siren } from '@/src/icons/disaster-crisis';
 // !SECTION: Disaster & Crisis
 // SECTION: Editing & Creation
 import { Add, Cut, Copy, Edit, Paste } from '@/src/icons/editing-creation';
@@ -287,6 +288,7 @@ export { ElectricPlug };
 export { Airpods, Devices, USBACable };
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
+export { Siren };
 // !SECTION: Disaster & Crisis
 // SECTION: Editing & Creation
 export { Add, Cut, Copy, Edit, Paste };
