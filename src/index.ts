@@ -59,6 +59,7 @@ import {
 // SECTION: Coding
 // !SECTION: Coding
 // SECTION: Communication
+import { ElectricPlug } from '@/src/icons/communication';
 // !SECTION: Communication
 // SECTION: Connectivity
 // !SECTION: Connectivity
@@ -274,6 +275,7 @@ export { Beard, CombScissors, DiamondRing, Hanger, Necklace, SkinCare, Tshirt };
 // SECTION: Coding
 // !SECTION: Coding
 // SECTION: Communication
+export { ElectricPlug };
 // !SECTION: Communication
 // SECTION: Connectivity
 // !SECTION: Connectivity

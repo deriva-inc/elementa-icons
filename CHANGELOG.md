@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.36.0] - 2025-12-16
+---
+#### Added
+- Add `ElectricPlug` icon under **Communication** category.
+
 ### [1.35.0] - 2025-12-16
 ---
 #### Added
