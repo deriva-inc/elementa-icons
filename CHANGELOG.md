@@ -1,50 +1,55 @@
 # CHANGELOG
-### [1.34.0] - 2025-11-16
+### [1.35.0] - 2025-12-16
+---
+#### Added
+- Add `Puzzle` icon under **Childhood** category.
+
+### [1.34.0] - 2025-12-16
 ---
 #### Added
 - Add `PieChart` and `Stocks` icons under **Charts & Graphs** category.
 
-### [1.33.0] - 2025-11-12
+### [1.33.0] - 2025-12-12
 ---
 #### Added
 - Add `Beard`, `CombScissors`, `Hanger`, `Necklace`, `SkinCare` and `Tshirt` icons under **Business** category.
 
-### [1.32.0] - 2025-11-12
+### [1.32.0] - 2025-12-12
 ---
 #### Added
 - Add `Briefcase` and `CareerGrowth` icons under **Business** category.
 
-### [1.31.0] - 2025-11-12
+### [1.31.0] - 2025-12-12
 ---
 #### Added
 - Add `Cityline`, `Home1`, `Home2`, and `Home3` icons under **Buildings** category.
 
-### [1.30.0] - 2025-11-12
+### [1.30.0] - 2025-12-12
 ---
 #### Added
 - Add `Gear` and `ToolBox` icons under **Automotive** category.
 
-### [1.29.0] - 2025-11-12
+### [1.29.0] - 2025-12-12
 ---
 #### Added
 - Add `Rocket` icon under **Astronomy** category.
 
-### [1.28.0] - 2025-11-09
+### [1.28.0] - 2025-12-09
 ---
 #### Added
 - Add `Loudspeaker` icon under **Marketing** category.
 
-### [1.27.0] - 2025-11-09
+### [1.27.0] - 2025-12-09
 ---
 #### Added
 - Add `Checklist` and `Notepad` icons under **Writing** category.
 
-### [1.26.0] - 2025-11-09
+### [1.26.0] - 2025-12-09
 ---
 #### Added
 - Add `DogPaw` icon under **Animals** category.
 
-### [1.25.0] - 2025-11-07
+### [1.25.0] - 2025-12-07
 ---
 #### Added
 - Add `Car1`, `Car2`, `CarService`, `FuelDispenserNozzle`, `Parking`, `Train`, and `Tram` icons under **Transportation** category.
@@ -54,7 +59,7 @@
 #### Added
 - Add CONTRIBUTING file.
 
-### [1.23.0] - 2025-11-06
+### [1.23.0] - 2025-12-06
 ---
 #### Added
 - Add README file.

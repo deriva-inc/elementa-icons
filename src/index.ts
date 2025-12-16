@@ -43,6 +43,7 @@ import { Briefcase, CareerGrowth } from '@/src/icons/business/';
 import { PieChart, Stocks } from '@/src/icons/charts-graphs';
 // !SECTION: Charts & Graphs
 // SECTION: Childhood
+import { Puzzle } from '@/src/icons/childhood/';
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
 import {
@@ -265,6 +266,7 @@ export { Briefcase, CareerGrowth };
 export { PieChart, Stocks };
 // !SECTION: Charts & Graphs
 // SECTION: Childhood
+export { Puzzle };
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
 export { Beard, CombScissors, DiamondRing, Hanger, Necklace, SkinCare, Tshirt };
