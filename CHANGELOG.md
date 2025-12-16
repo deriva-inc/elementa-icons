@@ -1,13 +1,18 @@
 # CHANGELOG
+### [1.39.0] - 2025-12-16
+---
+#### Added
+- Add `HomeDocuments` icon under **Files & Folders** category.
+
 ### [1.38.0] - 2025-12-16
 ---
 #### Added
-- Add `Brain`, `FirstAid`, `HeartCare`, `HeartTrackLine`, and `Pills` icons under **Medical and Health** category.
+- Add `Brain`, `FirstAid`, `HeartCare`, `HeartTrackLine`, and `Pills` icons under **Medical & Health** category.
 
 ### [1.37.0] - 2025-12-16
 ---
 #### Added
-- Add `Siren` icon under **Disaster and Crisis** category.
+- Add `Siren` icon under **Disaster & Crisis** category.
 
 ### [1.36.0] - 2025-12-16
 ---

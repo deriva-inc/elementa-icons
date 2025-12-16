@@ -84,6 +84,7 @@ import { OpenBook } from '@/src/icons/education';
 // SECTION: Energy
 // !SECTION: Energy
 // SECTION: Files & Folders
+import { HomeDocuments } from '@/src/icons/files-folders';
 // !SECTION: Files & Folders
 // SECTION: Film & Video
 // !SECTION: Film & Video
@@ -308,6 +309,7 @@ export { OpenBook };
 // SECTION: Energy
 // !SECTION: Energy
 // SECTION: Files & Folders
+export { HomeDocuments };
 // !SECTION: Files & Folders
 // SECTION: Film & Video
 // !SECTION: Film & Video
