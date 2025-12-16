@@ -135,6 +135,13 @@ import { Loudspeaker } from '@/src/icons/marketing/';
 // SECTION: Media Playback
 // !SECTION: Media Playback
 // SECTION: Medical & Health
+import {
+    Brain,
+    FirstAid,
+    HeartCare,
+    HeartTrackLine,
+    Pills
+} from '@/src/icons/medical-health/';
 // !SECTION: Medical & Health
 // SECTION: Money
 import { Bitcoin, CreditCards, Wallet } from '@/src/icons/money';
@@ -344,6 +351,7 @@ export { Loudspeaker };
 // SECTION: Media Playback
 // !SECTION: Media Playback
 // SECTION: Medical & Health
+export { Brain, FirstAid, HeartCare, HeartTrackLine, Pills };
 // !SECTION: Medical & Health
 // SECTION: Money
 export { Bitcoin, CreditCards, Wallet };

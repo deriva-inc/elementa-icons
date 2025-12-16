@@ -13,19 +13,18 @@ const iconTemplate = (
 ${imports};
 
 // Import custom components.
-
+\n
 // Import custom utilities.
-
+\n
 // Import custom types.
 import { IconComponentProps } from "@/src/lib/types";
-
+\n
 // Import styles.
-
+\n
 /**
  * This function renders an SVG icon.
  */
 ${interfaces};
-
 const ${cleanComponentName} = ({
     color = '#000000',
     height = '1em',
@@ -36,7 +35,7 @@ const ${cleanComponentName} = ({
     ${jsx}
   )
 };
-
+\n
 export default ${exportName};
 `;
 };

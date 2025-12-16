@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.38.0] - 2025-12-16
+---
+#### Added
+- Add `Brain`, `FirstAid`, `HeartCare`, `HeartTrackLine`, and `Pills` icons under **Medical and Health** category.
+
 ### [1.37.0] - 2025-12-16
 ---
 #### Added
