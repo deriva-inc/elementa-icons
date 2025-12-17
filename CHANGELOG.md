@@ -1,8 +1,13 @@
 # CHANGELOG
+### [1.41.0] - 2025-12-18
+---
+#### Added
+- Add `HammerNail` icon under **Construction** category.
+
 ### [1.40.0] - 2025-12-18
 ---
 #### Added
-- Add `PinOnHand` and `World1` icon under **Location & Maps** category.
+- Add `PinOnHand` and `World1` icons under **Location & Maps** category.
 
 ### [1.39.0] - 2025-12-16
 ---

@@ -64,6 +64,7 @@ import { ElectricPlug } from '@/src/icons/communication';
 // SECTION: Connectivity
 // !SECTION: Connectivity
 // SECTION: Construction
+import { HammerNail } from '@/src/icons/construction';
 // !SECTION: Construction
 // SECTION: Design
 // !SECTION: Design
@@ -290,6 +291,7 @@ export { ElectricPlug };
 // SECTION: Connectivity
 // !SECTION: Connectivity
 // SECTION: Construction
+export { HammerNail };
 // !SECTION: Construction
 // SECTION: Design
 // !SECTION: Design
