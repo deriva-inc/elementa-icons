@@ -114,6 +114,7 @@ import { Appliances, Sofa } from '@/src/icons/household';
 import { FavoriteFilled, FavoriteOutline } from '@/src/icons/interactions';
 // !SECTION: Interactions
 // SECTION: Location & Maps
+import { PinOnHand, World1 } from '@/src/icons/location-maps';
 // !SECTION: Location & Maps
 // SECTION: Logos
 import {
@@ -339,6 +340,7 @@ export { Appliances, Sofa };
 export { FavoriteFilled, FavoriteOutline };
 // !SECTION: Interactions
 // SECTION: Location & Maps
+export { PinOnHand, World1 };
 // !SECTION: Location & Maps
 // SECTION: Logistics
 // !SECTION: Logistics
