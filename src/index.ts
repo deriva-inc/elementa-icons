@@ -9,7 +9,7 @@
 // SECTION: Alphabet
 // !SECTION: Alphabet
 // SECTION: Animals
-import { DogPaw } from '@/src/icons/animals/';
+import { DogPaw } from '@/src/icons/animals';
 // !SECTION: Animals
 // SECTION: Arrows & Direction
 import {
@@ -24,16 +24,16 @@ import {
 } from '@/src/icons/arrows-directions';
 // !SECTION: Arrows & Direction
 // SECTION: Astronomy
-import { Rocket } from '@/src/icons/astronomy/';
+import { Rocket } from '@/src/icons/astronomy';
 // !SECTION: Astronomy
 // SECTION: Automotive
-import { Gear, ToolBox } from '@/src/icons/automotive/';
+import { Gear, ToolBox } from '@/src/icons/automotive';
 // !SECTION: Automotive
 // SECTION: Buildings
-import { Cityline, Home1, Home2, Home3 } from '@/src/icons/buildings/';
+import { Cityline, Home1, Home2, Home3 } from '@/src/icons/buildings';
 // !SECTION: Buildings
 // SECTION: Business
-import { Briefcase, CareerGrowth } from '@/src/icons/business/';
+import { Briefcase, CareerGrowth } from '@/src/icons/business';
 // !SECTION: Business
 // SECTION: Camping
 // !SECTION: Camping
@@ -43,7 +43,7 @@ import { Briefcase, CareerGrowth } from '@/src/icons/business/';
 import { PieChart, Stocks } from '@/src/icons/charts-graphs';
 // !SECTION: Charts & Graphs
 // SECTION: Childhood
-import { Puzzle } from '@/src/icons/childhood/';
+import { Puzzle } from '@/src/icons/childhood';
 // !SECTION: Childhood
 // SECTION: Clothing & Fashion
 import {
@@ -88,6 +88,7 @@ import { OpenBook } from '@/src/icons/education';
 import { HomeDocuments } from '@/src/icons/files-folders';
 // !SECTION: Files & Folders
 // SECTION: Film & Video
+import { Clapperboard, ComedyMasks } from '@/src/icons/film-video';
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
 import {
@@ -131,7 +132,7 @@ import {
 // SECTION: Logistics
 // !SECTION: Logistics
 // SECTION: Marketing
-import { Loudspeaker } from '@/src/icons/marketing/';
+import { Loudspeaker } from '@/src/icons/marketing';
 // !SECTION: Marketing
 // SECTION: Mathematics
 // !SECTION: Mathematics
@@ -144,7 +145,7 @@ import {
     HeartCare,
     HeartTrackLine,
     Pills
-} from '@/src/icons/medical-health/';
+} from '@/src/icons/medical-health';
 // !SECTION: Medical & Health
 // SECTION: Money
 import { Bitcoin, CreditCards, Wallet } from '@/src/icons/money';
@@ -175,10 +176,10 @@ import { Delete, Refresh } from '@/src/icons/saving-data-management';
 import { Fingerprint, Logout } from '@/src/icons/security-privacy';
 // !SECTION: Security & Privacy
 // SECTION: Shapes, Symbols & Punctuation
-import { Shapes, TrackLine } from '@/src/icons/shapes-symbols-punctuation/';
+import { Shapes, TrackLine } from '@/src/icons/shapes-symbols-punctuation';
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
-import { Discount, ShoppingCart } from '@/src/icons/shopping/';
+import { Discount, ShoppingCart } from '@/src/icons/shopping';
 // !SECTION: Shopping
 // SECTION: Social & People
 import { AddFriend, AddFriends } from '@/src/icons/social-people';
@@ -216,7 +217,7 @@ import { MetalBriefcase } from '@/src/icons/travel-hotel';
 // SECTION: Weather
 // !SECTION: Weather
 // SECTION: Writing
-import { Checklist, Notepad } from '@/src/icons/writing/';
+import { Checklist, Notepad } from '@/src/icons/writing';
 // !SECTION: Writing
 // SECTION: Navigation & Menu
 // !SECTION: Navigation & Menu
@@ -316,6 +317,7 @@ export { OpenBook };
 export { HomeDocuments };
 // !SECTION: Files & Folders
 // SECTION: Film & Video
+export { Clapperboard, ComedyMasks };
 // !SECTION: Film & Video
 // SECTION: Food & Beverage
 export {

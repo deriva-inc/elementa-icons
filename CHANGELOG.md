@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.43.0] - 2025-12-18
+---
+#### Added
+- Add `Clapperboard` and `ComedyMasks` icons under **Film & Video** category.
+
 ### [1.42.0] - 2025-12-18
 ---
 #### Added
