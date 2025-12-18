@@ -136,6 +136,7 @@ import {
 import { Loudspeaker } from '@/src/icons/marketing';
 // !SECTION: Marketing
 // SECTION: Mathematics
+import { Calculator } from '@/src/icons/mathematics';
 // !SECTION: Mathematics
 // SECTION: Media Playback
 import MediaPlayback from '@/src/icons/media-playback/MediaPlayback';
@@ -371,6 +372,7 @@ export { Discord, Facebook, Instagram, LinkedIn, Reddit, Twitter, YouTube };
 export { Loudspeaker };
 // !SECTION: Marketing
 // SECTION: Mathematics
+export { Calculator };
 // !SECTION: Mathematics
 // SECTION: Media Playback
 export { MediaPlayback };

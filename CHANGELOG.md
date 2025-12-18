@@ -1,8 +1,13 @@
 # CHANGELOG
+### [1.48.0] - 2025-12-19
+---
+#### Added
+- Add `Calculator` icon under **Mathematics** category.
+
 ### [1.47.0] - 2025-12-19
 ---
 #### Added
-- Add `CloudSaas` icons under **Connectivity** category.
+- Add `CloudSaas` icon under **Connectivity** category.
 
 ### [1.46.0] - 2025-12-18
 ---
