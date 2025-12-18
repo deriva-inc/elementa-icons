@@ -137,6 +137,7 @@ import { Loudspeaker } from '@/src/icons/marketing';
 // SECTION: Mathematics
 // !SECTION: Mathematics
 // SECTION: Media Playback
+import MediaPlayback from '@/src/icons/media-playback/MediaPlayback';
 // !SECTION: Media Playback
 // SECTION: Medical & Health
 import {
@@ -358,6 +359,7 @@ export { Loudspeaker };
 // SECTION: Mathematics
 // !SECTION: Mathematics
 // SECTION: Media Playback
+export { MediaPlayback };
 // !SECTION: Media Playback
 // SECTION: Medical & Health
 export { Brain, FirstAid, HeartCare, HeartTrackLine, Pills };

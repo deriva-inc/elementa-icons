@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.44.0] - 2025-12-18
+---
+#### Added
+- Add `MediaPlayback` icon under **Media Playback** category.
+
 ### [1.43.0] - 2025-12-18
 ---
 #### Added
