@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.47.0] - 2025-12-19
+---
+#### Added
+- Add `CloudSaas` icons under **Connectivity** category.
+
 ### [1.46.0] - 2025-12-18
 ---
 #### Added

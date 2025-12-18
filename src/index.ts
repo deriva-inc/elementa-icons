@@ -62,6 +62,7 @@ import {
 import { ElectricPlug } from '@/src/icons/communication';
 // !SECTION: Communication
 // SECTION: Connectivity
+import { CloudSaas } from '@/src/icons/connectivity';
 // !SECTION: Connectivity
 // SECTION: Construction
 import { HammerNail } from '@/src/icons/construction';
@@ -304,6 +305,7 @@ export { Beard, CombScissors, DiamondRing, Hanger, Necklace, SkinCare, Tshirt };
 export { ElectricPlug };
 // !SECTION: Communication
 // SECTION: Connectivity
+export { CloudSaas };
 // !SECTION: Connectivity
 // SECTION: Construction
 export { HammerNail };
