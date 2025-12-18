@@ -225,7 +225,7 @@ import {
 import { Description } from '@/src/icons/text-formatting';
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
-import { Calendar, Clock } from '@/src/icons/time-calendar';
+import { Calendar, CalendarEvent, Clock } from '@/src/icons/time-calendar';
 // !SECTION: Time & Calendar
 // SECTION: Toggle
 // !SECTION: Toggle
@@ -452,7 +452,7 @@ export { Checkpoint, Info, RefreshWithTick, TickCloud, TickSquare };
 export { Description };
 // !SECTION: Text Formatting
 // SECTION: Time & Calendar
-export { Calendar, Clock };
+export { Calendar, CalendarEvent, Clock };
 // !SECTION: Time & Calendar
 // SECTION: Toggle
 // !SECTION: Toggle

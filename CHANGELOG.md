@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.51.0] - 2025-12-19
+---
+#### Added
+- Add `CalendarEvent` **Time & Calendar** category.
+
 ### [1.50.0] - 2025-12-19
 ---
 #### Added
