@@ -111,7 +111,16 @@ import { Palm } from '@/src/icons/hands';
 import { Balloon, GiftBox } from '@/src/icons/holidays';
 // !SECTION: Holidays
 // SECTION: Household
-import { Appliances, Sofa } from '@/src/icons/household';
+import {
+    Appliances,
+    BroomBucket,
+    FourBurners1,
+    GasCylinder,
+    RockingChair,
+    Sofa,
+    Tv,
+    Utilities
+} from '@/src/icons/household';
 // !SECTION: Household
 // SECTION: Interactions
 import { FavoriteFilled, FavoriteOutline } from '@/src/icons/interactions';
@@ -355,7 +364,16 @@ export { Palm };
 export { Balloon, GiftBox };
 // !SECTION: Holidays
 // SECTION: Household
-export { Appliances, Sofa };
+export {
+    Appliances,
+    BroomBucket,
+    FourBurners1,
+    GasCylinder,
+    RockingChair,
+    Sofa,
+    Tv,
+    Utilities
+};
 // !SECTION: Household
 // SECTION: Interactions
 export { FavoriteFilled, FavoriteOutline };

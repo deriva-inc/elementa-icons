@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.49.0] - 2025-12-19
+---
+#### Added
+- Add `BroomBucket`, `FourBurners1`, `GasCylinder`, `RockingChair`, `Tv`, and `Utilities` icons under **Household** category.
+
 ### [1.48.0] - 2025-12-19
 ---
 #### Added
