@@ -180,7 +180,13 @@ import { Fingerprint, Logout } from '@/src/icons/security-privacy';
 import { Shapes, TrackLine } from '@/src/icons/shapes-symbols-punctuation';
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
-import { Discount, ShoppingCart } from '@/src/icons/shopping';
+import {
+    Discount,
+    ShoppingBags,
+    ShoppingCart,
+    Wishlist1,
+    Wishlist2
+} from '@/src/icons/shopping';
 // !SECTION: Shopping
 // SECTION: Social & People
 import { AddFriend, AddFriends } from '@/src/icons/social-people';
@@ -190,6 +196,15 @@ import { AddFriend, AddFriends } from '@/src/icons/social-people';
 // SECTION: Sports
 import { Basketball, Dart } from '@/src/icons/sports';
 // !SECTION: Sports
+// SECTION: Status & Notifications
+import {
+    Checkpoint,
+    Info,
+    RefreshWithTick,
+    TickCloud,
+    TickSquare
+} from '@/src/icons/status-notifications';
+// !SECTION: Status & Notifications
 // SECTION: Text Formatting
 import { Description } from '@/src/icons/text-formatting';
 // !SECTION: Text Formatting
@@ -230,15 +245,6 @@ import {
     Search
 } from '@/src/icons/user-interface-controls';
 // !SECTION: User Interface Controls
-// SECTION: Status & Notifications
-import {
-    Checkpoint,
-    Info,
-    RefreshWithTick,
-    TickCloud,
-    TickSquare
-} from '@/src/icons/status-notifications';
-// !SECTION: Status & Notifications
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Activities
@@ -402,7 +408,7 @@ export { Fingerprint, Logout };
 export { Shapes, TrackLine };
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
-export { Discount, ShoppingCart };
+export { Discount, ShoppingBags, ShoppingCart, Wishlist1, Wishlist2 };
 // !SECTION: Shopping
 // SECTION: Social & People
 export { AddFriend, AddFriends };
@@ -412,6 +418,9 @@ export { AddFriend, AddFriends };
 // SECTION: Sports
 export { Basketball, Dart };
 // !SECTION: Sports
+// SECTION: Status & Notifications
+export { Checkpoint, Info, RefreshWithTick, TickCloud, TickSquare };
+// !SECTION: Status & Notifications
 // SECTION: Text Formatting
 export { Description };
 // !SECTION: Text Formatting
@@ -447,9 +456,6 @@ export { Checklist, Notepad };
 // SECTION: User Interface Controls
 export { Cancel, Check, Filter, Search };
 // !SECTION: User Interface Controls
-// SECTION: Status & Notifications
-export { Checkpoint, Info, RefreshWithTick, TickCloud, TickSquare };
-// !SECTION: Status & Notifications
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Activities

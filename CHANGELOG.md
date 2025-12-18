@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.46.0] - 2025-12-18
+---
+#### Added
+- Add `ShoppingBags`, `Wishlist1` and `Wishlist2` icons under **Shopping** category.
+
 ### [1.45.0] - 2025-12-18
 ---
 #### Added
