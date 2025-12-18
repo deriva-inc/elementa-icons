@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.50.0] - 2025-12-19
+---
+#### Added
+- Add `Friends` and `Memes` **Social & People** category.
+
 ### [1.49.0] - 2025-12-19
 ---
 #### Added

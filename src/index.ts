@@ -200,7 +200,12 @@ import {
 } from '@/src/icons/shopping';
 // !SECTION: Shopping
 // SECTION: Social & People
-import { AddFriend, AddFriends } from '@/src/icons/social-people';
+import {
+    AddFriend,
+    AddFriends,
+    Friends,
+    Memes
+} from '@/src/icons/social-people';
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
@@ -433,7 +438,7 @@ export { Shapes, TrackLine };
 export { Discount, ShoppingBags, ShoppingCart, Wishlist1, Wishlist2 };
 // !SECTION: Shopping
 // SECTION: Social & People
-export { AddFriend, AddFriends };
+export { AddFriend, AddFriends, Friends, Memes };
 // !SECTION: Social & People
 // SECTION: Spinners
 // !SECTION: Spinners
