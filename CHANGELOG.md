@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.42.0] - 2025-12-18
+---
+#### Added
+- Add `Shapes` and `TrackLine` icons under **Shapes, Symbols & Punctuation** category.
+
 ### [1.41.0] - 2025-12-18
 ---
 #### Added

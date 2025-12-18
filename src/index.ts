@@ -175,6 +175,7 @@ import { Delete, Refresh } from '@/src/icons/saving-data-management';
 import { Fingerprint, Logout } from '@/src/icons/security-privacy';
 // !SECTION: Security & Privacy
 // SECTION: Shapes, Symbols & Punctuation
+import { Shapes, TrackLine } from '@/src/icons/shapes-symbols-punctuation/';
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
 import { Discount, ShoppingCart } from '@/src/icons/shopping/';
@@ -388,6 +389,7 @@ export { Delete, Refresh };
 export { Fingerprint, Logout };
 // !SECTION: Security & Privacy
 // SECTION: Shapes, Symbols & Punctuation
+export { Shapes, TrackLine };
 // !SECTION: Shapes, Symbols & Punctuation
 // SECTION: Shopping
 export { Discount, ShoppingCart };
