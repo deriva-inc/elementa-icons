@@ -231,7 +231,13 @@ import {
 } from '@/src/icons/user-interface-controls';
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
-import { Info, TickCloud } from '@/src/icons/status-notifications';
+import {
+    Checkpoint,
+    Info,
+    RefreshWithTick,
+    TickCloud,
+    TickSquare
+} from '@/src/icons/status-notifications';
 // !SECTION: Status & Notifications
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
@@ -442,8 +448,8 @@ export { Checklist, Notepad };
 export { Cancel, Check, Filter, Search };
 // !SECTION: User Interface Controls
 // SECTION: Status & Notifications
+export { Checkpoint, Info, RefreshWithTick, TickCloud, TickSquare };
 // !SECTION: Status & Notifications
-export { Info, TickCloud };
 // SECTION: Layout & Grid
 // !SECTION: Layout & Grid
 // SECTION: Activities

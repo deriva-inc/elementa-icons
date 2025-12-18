@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.45.0] - 2025-12-18
+---
+#### Added
+- Add `Checkpoint`, `RefreshWithTick` and `TickSquare` icons under **Status & Notifications** category.
+
 ### [1.44.0] - 2025-12-18
 ---
 #### Added
