@@ -175,7 +175,7 @@ import { Bitcoin, CreditCards, Wallet } from '@/src/icons/money';
 import { Mic } from '@/src/icons/music-audio';
 // !SECTION: Music & Audio
 // SECTION: Nature & Environment
-import { Fire } from '@/src/icons/nature-environment';
+import { Fire, WaterDrops, WaterPlant } from '@/src/icons/nature-environment';
 // !SECTION: Nature & Environment
 // SECTION: Numbers
 // !SECTION: Numbers
@@ -428,7 +428,7 @@ export { Bitcoin, CreditCards, Wallet };
 export { Mic };
 // !SECTION: Music & Audio
 // SECTION: Nature & Environment
-export { Fire };
+export { Fire, WaterDrops, WaterPlant };
 // !SECTION: Nature & Environment
 // SECTION: Numbers
 // !SECTION: Numbers

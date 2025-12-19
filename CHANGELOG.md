@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.54.0] - 2025-12-19
+---
+#### Added
+- Add `WaterDrops` and `WaterPlant` icon under **Nature & Environment** category.
+
 ### [1.53.0] - 2025-12-19
 ---
 #### Added
