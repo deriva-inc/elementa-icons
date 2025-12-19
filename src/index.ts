@@ -105,10 +105,15 @@ import {
     BeerMug,
     Cake,
     Cutlery,
+    DineInTable1,
     EatenApple,
+    EggsBasket,
     FoodTiffin,
     GreenTea,
-    PotatoChips
+    Grocery,
+    Plate1,
+    PotatoChips,
+    ServiceTray
 } from '@/src/icons/food-beverage';
 // !SECTION: Food & Beverage
 // SECTION: Gaming
@@ -376,10 +381,15 @@ export {
     BeerMug,
     Cake,
     Cutlery,
+    DineInTable1,
     EatenApple,
+    EggsBasket,
     FoodTiffin,
     GreenTea,
-    PotatoChips
+    Grocery,
+    Plate1,
+    PotatoChips,
+    ServiceTray
 };
 // !SECTION: Food & Beverage
 // SECTION: Gaming

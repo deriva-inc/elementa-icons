@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.58.0] - 2025-12-20
+---
+#### Added
+- Add `DineInTable1`, `EggsBasket`, `Grocery`, `Plate1`, and `ServiceTray` icons under **Food & Beverage** category.
+
 ### [1.57.0] - 2025-12-19
 ---
 #### Added
