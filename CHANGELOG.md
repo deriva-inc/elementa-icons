@@ -1,5 +1,10 @@
 # CHANGELOG
-### [1.51.0] - 2025-12-19
+### [1.53.0] - 2025-12-19
+---
+#### Added
+- Add `GraduationHat` icon under **Education** category.
+
+### [1.52.0] - 2025-12-19
 ---
 #### Added
 - Add `Laptop1`, `Router`, `Smartwatch`, `Telephone1`, `Telephone2` icons under **Devices & Hardware** category.

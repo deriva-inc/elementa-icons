@@ -88,7 +88,7 @@ import { Siren } from '@/src/icons/disaster-crisis';
 import { Add, Cut, Copy, Edit, Paste } from '@/src/icons/editing-creation';
 // !SECTION: Editing & Creation
 // SECTION: Education
-import { OpenBook } from '@/src/icons/education';
+import { GraduationHat, OpenBook } from '@/src/icons/education';
 // !SECTION: Education
 // SECTION: Emoji & Emoticons
 // !SECTION: Emoji & Emoticons
@@ -355,7 +355,7 @@ export { Siren };
 export { Add, Cut, Copy, Edit, Paste };
 // !SECTION: Editing & Creation
 // SECTION: Education
-export { OpenBook };
+export { OpenBook, GraduationHat };
 // !SECTION: Education
 // SECTION: Emoji & Emoticons
 // !SECTION: Emoji & Emoticons
