@@ -132,7 +132,11 @@ import {
 } from '@/src/icons/household';
 // !SECTION: Household
 // SECTION: Interactions
-import { FavoriteFilled, FavoriteOutline } from '@/src/icons/interactions';
+import {
+    FavoriteFilled,
+    FavoriteOutline,
+    Thought
+} from '@/src/icons/interactions';
 // !SECTION: Interactions
 // SECTION: Location & Maps
 import { PinOnHand, World1 } from '@/src/icons/location-maps';
@@ -399,7 +403,7 @@ export {
 };
 // !SECTION: Household
 // SECTION: Interactions
-export { FavoriteFilled, FavoriteOutline };
+export { FavoriteFilled, FavoriteOutline, Thought };
 // !SECTION: Interactions
 // SECTION: Location & Maps
 export { PinOnHand, World1 };

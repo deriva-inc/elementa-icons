@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.57.0] - 2025-12-19
+---
+#### Added
+- Add `Thought` icon under **Interactions** category.
+
 ### [1.56.0] - 2025-12-19
 ---
 #### Added
