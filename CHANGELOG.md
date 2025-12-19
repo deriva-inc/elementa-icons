@@ -2,12 +2,17 @@
 ### [1.51.0] - 2025-12-19
 ---
 #### Added
-- Add `CalendarEvent` **Time & Calendar** category.
+- Add `Laptop1`, `Router`, `Smartwatch`, `Telephone1`, `Telephone2` icons under **Devices & Hardware** category.
+
+### [1.51.0] - 2025-12-19
+---
+#### Added
+- Add `CalendarEvent` icon under **Time & Calendar** category.
 
 ### [1.50.0] - 2025-12-19
 ---
 #### Added
-- Add `Friends` and `Memes` **Social & People** category.
+- Add `Friends` and `Memes` icons under **Social & People** category.
 
 ### [1.49.0] - 2025-12-19
 ---

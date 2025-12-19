@@ -70,7 +70,16 @@ import { HammerNail } from '@/src/icons/construction';
 // SECTION: Design
 // !SECTION: Design
 // SECTION: Devices & Hardware
-import { Airpods, Devices, USBACable } from '@/src/icons/devices-hardware';
+import {
+    Airpods,
+    Devices,
+    Laptop1,
+    Router,
+    Smartwatch,
+    Telephone1,
+    Telephone2,
+    USBACable
+} from '@/src/icons/devices-hardware';
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
 import { Siren } from '@/src/icons/disaster-crisis';
@@ -328,7 +337,16 @@ export { HammerNail };
 // SECTION: Design
 // !SECTION: Design
 // SECTION: Devices & Hardware
-export { Airpods, Devices, USBACable };
+export {
+    Airpods,
+    Devices,
+    Laptop1,
+    Router,
+    Smartwatch,
+    Telephone1,
+    Telephone2,
+    USBACable
+};
 // !SECTION: Devices & Hardware
 // SECTION: Disaster & Crisis
 export { Siren };
