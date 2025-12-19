@@ -219,7 +219,7 @@ import {
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Sports
-import { Basketball, Dart } from '@/src/icons/sports';
+import { Badminton, Basketball, Dart } from '@/src/icons/sports';
 // !SECTION: Sports
 // SECTION: Status & Notifications
 import {
@@ -461,7 +461,7 @@ export { AddFriend, AddFriends, Friends, Memes };
 // SECTION: Spinners
 // !SECTION: Spinners
 // SECTION: Sports
-export { Basketball, Dart };
+export { Badminton, Basketball, Dart };
 // !SECTION: Sports
 // SECTION: Status & Notifications
 export { Checkpoint, Info, RefreshWithTick, TickCloud, TickSquare };

@@ -1,8 +1,13 @@
 # CHANGELOG
+### [1.56.0] - 2025-12-19
+---
+#### Added
+- Add `Badminton` icon under **Sports** category.
+
 ### [1.55.0] - 2025-12-19
 ---
 #### Added
-- Add `WaterDrops` and `WaterPlant` icon under **Holidays** category.
+- Add `Confetti` and `HotelBoard` icon under **Holidays** category.
 
 ### [1.54.0] - 2025-12-19
 ---
