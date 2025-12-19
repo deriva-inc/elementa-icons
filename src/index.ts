@@ -117,7 +117,7 @@ import {
 import { Palm } from '@/src/icons/hands';
 // !SECTION: Hands
 // SECTION: Holidays
-import { Balloon, GiftBox } from '@/src/icons/holidays';
+import { Balloon, Confetti, GiftBox, HotelBoard } from '@/src/icons/holidays';
 // !SECTION: Holidays
 // SECTION: Household
 import {
@@ -384,7 +384,7 @@ export {
 export { Palm };
 // !SECTION: Hands
 // SECTION: Holidays
-export { Balloon, GiftBox };
+export { Balloon, Confetti, GiftBox, HotelBoard };
 // !SECTION: Holidays
 // SECTION: Household
 export {
