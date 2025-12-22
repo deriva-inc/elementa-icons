@@ -113,7 +113,7 @@ import {
     Grocery,
     Plate1,
     PotatoChips,
-    ServiceTray
+    ServiceTray1
 } from '@/src/icons/food-beverage';
 // !SECTION: Food & Beverage
 // SECTION: Gaming
@@ -203,7 +203,15 @@ import { Delete, Refresh } from '@/src/icons/saving-data-management';
 // SECTION: Science Fiction
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
-import { Fingerprint, Logout } from '@/src/icons/security-privacy';
+import {
+    IdCard,
+    Fingerprint,
+    Locker,
+    LockerChest,
+    LockerCircle,
+    Logout,
+    WorldLocker
+} from '@/src/icons/security-privacy';
 // !SECTION: Security & Privacy
 // SECTION: Shapes, Symbols & Punctuation
 import { Shapes, TrackLine } from '@/src/icons/shapes-symbols-punctuation';
@@ -389,7 +397,7 @@ export {
     Grocery,
     Plate1,
     PotatoChips,
-    ServiceTray
+    ServiceTray1
 };
 // !SECTION: Food & Beverage
 // SECTION: Gaming
@@ -461,7 +469,15 @@ export { Delete, Refresh };
 // SECTION: Science Fiction
 // !SECTION: Science Fiction
 // SECTION: Security & Privacy
-export { Fingerprint, Logout };
+export {
+    IdCard,
+    Fingerprint,
+    Locker,
+    LockerChest,
+    LockerCircle,
+    Logout,
+    WorldLocker
+};
 // !SECTION: Security & Privacy
 // SECTION: Shapes, Symbols & Punctuation
 export { Shapes, TrackLine };

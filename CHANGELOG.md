@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.59.0] - 2025-12-22
+---
+#### Added
+- Add `IdCard`, `Locker`, `LockerChest`, `LockerCircle`, and `WorldLocker` icons under **Security & Privacy** category.
+
 ### [1.58.0] - 2025-12-20
 ---
 #### Added

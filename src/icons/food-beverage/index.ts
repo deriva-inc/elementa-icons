@@ -9,7 +9,7 @@ import GreenTea from '@/src/icons/food-beverage/GreenTea';
 import Grocery from '@/src/icons/food-beverage/Grocery';
 import Plate1 from '@/src/icons/food-beverage/Plate1';
 import PotatoChips from '@/src/icons/food-beverage/PotatoChips';
-import ServiceTray from '@/src/icons/food-beverage/ServiceTray1';
+import ServiceTray1 from '@/src/icons/food-beverage/ServiceTray1';
 
 export {
     BeerMug,
@@ -23,5 +23,5 @@ export {
     Grocery,
     Plate1,
     PotatoChips,
-    ServiceTray
+    ServiceTray1
 };
