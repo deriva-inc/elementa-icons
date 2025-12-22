@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.62.0] - 2025-12-22
+---
+#### Added
+- Add `Coins2`, `CreditCard`, `MoneyCalendar2`, `MoneyIn2`, `MoneyIn3`, `MoneyInstitution2`, `MoneyOut2`, `MoneyOut3`, `PiggyBank`, `RupeeBubble`, `RupeeCash1`, `RupeeDebt2`, `RupeeDebt3`, `RupeeDebt4`, `RupeeDebt5`, `RupeeLocker`, `RupeePlant`, `RupeeTransfer1`, `RupeeTransfer2` and `TaxDocument` icons under **Money** category.    
+
 ### [1.61.0] - 2025-12-22
 ---
 #### Added

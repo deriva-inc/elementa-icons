@@ -10,7 +10,7 @@ import { IconComponentProps } from '@/src/lib/types';
 /**
  * This function renders an SVG icon.
  */
-const MoneyOut = ({
+const MoneyOut1 = ({
     color = '#000000',
     height = '1em',
     strokeWidth = 1,
@@ -41,4 +41,4 @@ const MoneyOut = ({
     );
 };
 
-export default MoneyOut;
+export default MoneyOut1;
