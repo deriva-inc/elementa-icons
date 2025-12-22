@@ -178,7 +178,23 @@ import {
 } from '@/src/icons/medical-health';
 // !SECTION: Medical & Health
 // SECTION: Money
-import { Bitcoin, CreditCards, Wallet } from '@/src/icons/money';
+import {
+    BullishStock,
+    Bitcoin,
+    Coins1,
+    CreditCards,
+    HomeDiscount,
+    MoneyBag1,
+    MoneyCalendar1,
+    MoneyIn,
+    MoneyInstitution1,
+    MoneyOut,
+    Rent,
+    RupeeDebt1,
+    Subscription,
+    Tax1,
+    Wallet
+} from '@/src/icons/money';
 // !SECTION: Money
 // SECTION: Music & Audio
 import { Mic } from '@/src/icons/music-audio';
@@ -449,7 +465,23 @@ export { MediaPlayback };
 export { Brain, FirstAid, HeartCare, HeartTrackLine, Pills };
 // !SECTION: Medical & Health
 // SECTION: Money
-export { Bitcoin, CreditCards, Wallet };
+export {
+    BullishStock,
+    Bitcoin,
+    Coins1,
+    CreditCards,
+    HomeDiscount,
+    MoneyBag1,
+    MoneyCalendar1,
+    MoneyIn,
+    MoneyInstitution1,
+    MoneyOut,
+    Rent,
+    RupeeDebt1,
+    Subscription,
+    Tax1,
+    Wallet
+};
 // !SECTION: Money
 // SECTION: Music & Audio
 export { Mic };

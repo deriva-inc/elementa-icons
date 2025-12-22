@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.61.0] - 2025-12-22
+---
+#### Added
+- Add `BullishStock`, `Coins1`, `HomeDiscount`, `MoneyBag1`, `MoneyCalendar1`, `MoneyIn`, `MoneyInstitution1`, `MoneyOut`, `Rent`, `RupeeDebt1`, `Subscription`, and `Tax1` icons under **Money** category.    
+
 ### [1.60.0] - 2025-12-22
 ---
 #### Added
