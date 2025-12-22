@@ -196,7 +196,12 @@ import { Flag } from '@/src/icons/political';
 // SECTION: Religion
 // !SECTION: Religion
 // SECTION: Saving & Data Management
-import { Delete, Refresh } from '@/src/icons/saving-data-management';
+import {
+    DataTransferVertical1,
+    Delete,
+    Import,
+    Refresh
+} from '@/src/icons/saving-data-management';
 // !SECTION: Saving & Data Management
 // SECTION: Science
 // !SECTION: Science
@@ -462,7 +467,7 @@ export { Flag };
 // SECTION: Religion
 // !SECTION: Religion
 // SECTION: Saving & Data Management
-export { Delete, Refresh };
+export { DataTransferVertical1, Delete, Import, Refresh };
 // !SECTION: Saving & Data Management
 // SECTION: Science
 // !SECTION: Science

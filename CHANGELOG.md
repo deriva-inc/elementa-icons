@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.60.0] - 2025-12-22
+---
+#### Added
+- Add `DataTransferVertical1`, and `Import` icons under **Saving & Data Management** category.
+
 ### [1.59.0] - 2025-12-22
 ---
 #### Added
