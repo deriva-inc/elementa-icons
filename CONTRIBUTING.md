@@ -161,9 +161,9 @@ yarn build
 - Commit message should follow [conventional commit guides](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
 
 ## 3.7 Publishing New Version
-When a PR is merger to the master branch the GitHub Action workflow file automatically pushed the new version of the library to npm.
+When a PR is merged to the `master` branch the GitHub Action workflow file automatically pushes the new version of the library to npm.
 
-## 3.2 Improving Library
+## 3.8 Improving Library
 Any contributions other than new icons include (but not limited to):
 1. improving the performance of the library
 2. support for other frameworks (Vue, Angular, and etc.)

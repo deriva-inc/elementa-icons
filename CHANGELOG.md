@@ -1,4 +1,9 @@
 # CHANGELOG
+### [1.63.0] - 2026-03-10
+---
+#### Updated
+- Update package for advisory: [GHSA-5c6j-r48x-rmvq](https://github.com/advisories/GHSA-5c6j-r48x-rmvq) and [CVE-2026-29074](https://github.com/advisories/GHSA-xpqw-6gx7-v673)
+
 ### [1.62.0] - 2025-12-22
 ---
 #### Added
