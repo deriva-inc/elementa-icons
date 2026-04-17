@@ -46,7 +46,7 @@ const ${componentName.substring(3)} = ({
     ...props
 }: IconComponentProps) => {
   const resolvedColor = color ?? 'currentColor';
-  const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
+  const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className].filter(Boolean).join(' ');
   return (
     ${jsx}
   )
