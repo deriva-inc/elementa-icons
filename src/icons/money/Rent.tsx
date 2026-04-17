@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const Rent = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const Rent = ({
             viewBox="0 0 31 33"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M20.272 21.19s.844.075 1.804.104c1.265.035 2.72-.003 2.72-.003a.156.156 0 0 0 .167-.142.156.156 0 0 0-.141-.168s-1.427-.285-2.68-.465c-.95-.135-1.795-.204-1.795-.204a.44.44 0 0 0-.075.878M22.371 25.745s.07-.775.092-1.656c.026-1.163-.022-2.497-.022-2.497a.156.156 0 0 0-.31-.027s-.274 1.306-.446 2.457a29 29 0 0 0-.192 1.647.44.44 0 0 0 .878.076M7.746 24.496s.085-.932.112-1.992c.035-1.398-.015-3.001-.015-3.001a.18.18 0 0 0-.163-.194.18.18 0 0 0-.193.164s-.322 1.57-.525 2.955c-.153 1.05-.228 1.98-.228 1.98a.509.509 0 0 0 1.012.088" />
             <path d="M8.866 22.532c.24-.048.506-.133.74-.282.405-.26.738-.687.708-1.406-.043-.615-.328-1.015-.735-1.251-.769-.446-1.911-.288-1.911-.288a.087.087 0 1 0 .01.174s1.01.037 1.612.531c.225.185.368.451.34.834a.84.84 0 0 1-.288.63c-.322.278-.807.293-1.03.3q-.116.002-.156.006c-.387.031-.394.392-.389.455.001.01.06.183.207.43.388.642 1.4 2.271 1.4 2.271a.415.415 0 1 0 .705-.436s-.758-1.226-1.213-1.968M11.705 22.332c-.123-.31-.229-.192-.242-.043a.34.34 0 0 0 .308.366h.03s.426.04.912.041c.667.002 1.424-.058 1.424-.058a.12.12 0 0 0 .13-.11.12.12 0 0 0-.109-.13s-.737-.185-1.393-.298c-.357-.063-.687-.09-.842-.11-.226-.026-.248.16-.218.342" />

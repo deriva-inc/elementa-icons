@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of an add friend.
  */
 const AddFriend = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const AddFriend = ({
             viewBox="0 0 33 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M15.147 12.108a6.6 6.6 0 0 1-2.193.615 6.6 6.6 0 0 1-2.25-.142c-1.442-.341-2.767-1.158-3.61-2.518-.826-1.322-1.172-2.882-.974-4.365.204-1.533.938-2.977 2.332-4.02a.196.196 0 0 0-.211-.33c-1.732.93-2.796 2.437-3.249 4.124-.472 1.76-.22 3.7.611 5.435l.011.02a7.32 7.32 0 0 0 4.609 3.59c.957.249 1.971.301 2.973.163a8.1 8.1 0 0 0 2.843-.957c1.77-1.116 2.95-2.826 3.368-4.723.407-1.845.129-3.847-.972-5.564-1.004-1.576-2.5-2.66-4.2-3.093-1.601-.407-3.367-.247-5.01.614a.037.037 0 0 0-.019.049c.009.018.03.026.05.018 1.64-.663 3.33-.667 4.811-.134a6.26 6.26 0 0 1 3.464 3.074 6.13 6.13 0 0 1 .437 4.661 5.9 5.9 0 0 1-2.821 3.483M2.63 24.708c1.808-2.347 3.553-3.934 5.184-4.992.961-.622 1.879-1.053 2.77-1.311 2.415-.7 4.6-.125 6.465.994a.905.905 0 1 0 .953-1.537c-2.269-1.45-4.978-2.245-7.974-1.404-1.077.302-2.199.817-3.328 1.616-1.792 1.267-3.619 3.25-5.475 6.11a1.2 1.2 0 0 0-.202.54 1.19 1.19 0 0 0 .923 1.306q.07.016.143.018c1.22-.026 3.67-.118 6.287-.231 4.474-.194 9.408-.443 9.408-.443.02 0 .036-.017.036-.036a.037.037 0 0 0-.038-.037z" />
             <path d="M12.558 22.675s3.73.008 7.962-.091a630 630 0 0 0 11.942-.433.287.287 0 0 0 .001-.575s-6.396-.299-11.944-.432c-4.23-.103-7.962-.093-7.962-.093a.812.812 0 1 0 .001 1.624" />

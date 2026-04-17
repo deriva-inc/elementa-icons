@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders a confetti icon.
  */
 const Confetti = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const Confetti = ({
             viewBox="0 0 30 30"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path
                 d="M529.856 160.491c.524 0 .95.408.95.911 0 .502-.426.91-.95.91-.525 0-.95-.408-.95-.91 0-.503.425-.911.95-.911m0 .561a.36.36 0 0 1 .255.092.37.37 0 0 1 .126.258.4.4 0 0 1-.092.289c-.075.081-.167.16-.289.169a.52.52 0 0 1-.375-.091c-.114-.093-.21-.214-.224-.367a.6.6 0 0 1 .125-.457.7.7 0 0 1 .474-.256z"

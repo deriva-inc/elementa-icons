@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a balloon.
  */
 const Balloon = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const Balloon = ({
             viewBox="0 0 15 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M7.736 17.471s-2.425-1.458-4.196-3.843c-1.003-1.352-1.795-3.013-1.656-4.94.068-1.6.757-3.017 1.78-4.073S6.066 2.85 7.648 2.824a5.84 5.84 0 0 1 4.21 1.599c1.13 1.068 1.872 2.556 1.922 4.24.065 1.808-.618 3.464-1.49 4.838-1.513 2.383-3.583 3.926-3.583 3.926a.037.037 0 0 0-.01.052c.012.016.035.02.052.01 0 0 2.854-1.743 4.65-4.561.789-1.236 1.357-2.674 1.442-4.255.098-2.034-.662-3.9-1.933-5.285-1.31-1.432-3.186-2.316-5.26-2.384-2.122-.036-4.052.801-5.422 2.223C.89 4.613.097 6.547.09 8.647c.042 1.862.71 3.486 1.71 4.814.951 1.267 2.158 2.265 3.233 2.983 1.39.927 2.53 1.38 2.53 1.38a.196.196 0 1 0 .173-.353" />
             <path d="M7.767 17.733q.002-.024-.007-.025c-.032.001-.02.012.007.025-.001.016-.005.04-.003.066.009.168.017.497.06.897q.036.324.099.648c.033.168.07.327.111.469l-.013.001c-.238.03-.492.067-.685.096l.18-1.038a.02.02 0 0 0-.011-.024.02.02 0 0 0-.024.011l-.716 1.277a.266.266 0 0 0 .25.354s.533.086 1.006.146c.308.038.583.063.653.069l.017.002.025-.009c.11-.04.543-.229.42-.676-.022-.081-.064-.253-.139-.464a6 6 0 0 0-.208-.498 8 8 0 0 0-.304-.58c-.201-.349-.389-.618-.482-.76l-.051-.074c-.026-.038-.047-.022-.064.009.013-.081-.027-.093-.066-.08a.1.1 0 0 0-.062.123l.093.068s-.053-.018-.086-.033" />

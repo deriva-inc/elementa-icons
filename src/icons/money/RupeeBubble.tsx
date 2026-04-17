@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const RupeeBubble = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const RupeeBubble = ({
             viewBox="0 0 32 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M8.516 17.654c-.38-2.076.127-4.092 1.226-5.713a7.33 7.33 0 0 1 4.639-3.1c1.905-.432 3.789-.016 5.338.925 1.543.938 2.774 2.415 3.267 4.298a7.38 7.38 0 0 1-.632 5.504c-.913 1.674-2.448 2.987-4.43 3.462-1.958.479-3.788.304-5.357-.458-1.594-.774-2.917-2.128-3.844-3.988a.077.077 0 0 0-.14.063c.811 2.018 2.094 3.53 3.694 4.467 1.662.974 3.663 1.313 5.859.95 2.377-.402 4.296-1.835 5.497-3.745 1.206-1.92 1.65-4.329 1.132-6.697-.565-2.41-2.046-4.387-4.017-5.565-1.966-1.174-4.402-1.547-6.786-.904-2.316.687-4.171 2.205-5.224 4.184a8.3 8.3 0 0 0-.603 6.412.197.197 0 0 0 .381-.095" />
             <path d="M21.52 14.535a5.43 5.43 0 0 1-.824 4.065 5.26 5.26 0 0 1-3.324 2.257c-1.385.312-2.757.017-3.879-.673-1.118-.69-1.996-1.78-2.34-3.154a5.33 5.33 0 0 1 .522-3.97c.675-1.19 1.796-2.11 3.225-2.427 1.466-.33 2.781-.235 3.893.308 1.109.542 2.013 1.518 2.667 2.94.008.02.03.03.05.02a.04.04 0 0 0 .02-.05c-.591-1.507-1.478-2.562-2.593-3.186-1.155-.645-2.556-.825-4.14-.556-1.628.28-2.944 1.26-3.763 2.57a6.14 6.14 0 0 0-.774 4.566 6 6 0 0 0 2.713 3.789 5.98 5.98 0 0 0 4.602.666c1.59-.437 2.87-1.46 3.619-2.795a5.75 5.75 0 0 0 .516-4.416.098.098 0 1 0-.19.046" />

@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a logout.
  */
 const Logout = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const Logout = ({
             viewBox="0 0 31 26"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="m28.501 12.813-.012.011c-.358.338-.828.791-1.31 1.29-1.292 1.335-2.683 2.909-2.683 2.909a.182.182 0 1 0 .24.275s1.753-1.157 3.255-2.249a41 41 0 0 0 1.46-1.117c.298-.238.51-.425.605-.504a.81.81 0 0 0 .278-.61.797.797 0 0 0-.279-.61c-.116-.095-.409-.346-.814-.663a53 53 0 0 0-1.26-.947 74 74 0 0 0-1.286-.919 120 120 0 0 0-1.96-1.342.183.183 0 1 0-.239.275s.715.802 1.603 1.753c.351.376.723.768 1.09 1.144a54 54 0 0 0 1.312 1.304" />
             <path d="M17.62 13.497s1.731.006 3.693-.078c2.58-.111 5.542-.36 5.542-.36a.24.24 0 0 0 0-.478s-2.962-.25-5.542-.36c-1.962-.085-3.694-.079-3.694-.079a.677.677 0 0 0 0 1.355" />

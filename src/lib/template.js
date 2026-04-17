@@ -26,11 +26,16 @@ import { IconComponentProps } from "@/src/lib/types";
  */
 ${interfaces};
 const ${cleanComponentName} = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+  const resolvedColor = color ?? 'currentColor';
+  const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className].filter(Boolean).join(' ');
   return (
     ${jsx}
   )

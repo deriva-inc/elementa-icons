@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders a plate.
  */
 const Plate1 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const Plate1 = ({
             viewBox="0 0 31 30"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="m12.295 11.997-.159-3.756a.107.107 0 0 0-.106-.107.107.107 0 0 0-.107.107l-.172 3.755a.272.272 0 1 0 .544.001M13.408 11.997l-.159-3.756a.107.107 0 0 0-.106-.107.107.107 0 0 0-.107.107l-.172 3.755a.272.272 0 1 0 .544.001" />
             <path d="M10.539 12.762h-.002l.476.526c.174.188.296.412.38.648.084.232.122.48.108.732-.007.237-.02.508-.025.802a67 67 0 0 0-.008 1.874c.02 1.982.103 4.02.103 4.02a.098.098 0 1 0 .196.007c0 .001.233-2.026.4-4 .056-.657.099-1.306.13-1.87.018-.294.026-.565.036-.803a2.6 2.6 0 0 0-.197-1.054 2.5 2.5 0 0 0-.612-.867l-.433-.393c.006-.29.018-.923.025-1.618.012-1.247.007-2.68.007-2.68q0-.018-.017-.02a.02.02 0 0 0-.02.016s-.223 1.416-.403 2.65c-.137.941-.245 1.77-.245 1.77-.007.09.024.18.086.245z" />

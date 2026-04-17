@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders a dine-in table.
  */
 const DineInTable1 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const DineInTable1 = ({
             viewBox="0 0 33 17"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M15.835 14.38s.005-1.849-.058-3.944c-.083-2.75-.27-5.917-.27-5.917h-.358s-.188 3.166-.271 5.917c-.064 2.095-.059 3.944-.059 3.944zM3.062 15.654s.366-1.005.715-2.166c.46-1.53.901-3.313.901-3.313a.18.18 0 0 0-.108-.228.18.18 0 0 0-.229.107s-.793 1.657-1.41 3.13c-.469 1.12-.825 2.127-.825 2.127a.508.508 0 0 0 .956.343M30.962 15.311s-.356-1.008-.825-2.127c-.616-1.473-1.41-3.13-1.41-3.13a.18.18 0 0 0-.228-.107.18.18 0 0 0-.109.228s.441 1.783.901 3.313a45 45 0 0 0 .715 2.166.508.508 0 0 0 .956-.343" />
             <path d="M10.001 13.177s-1.21-.003-2.582.04c-1.8.055-3.872.18-3.872.18a.12.12 0 0 0 0 .24c0-.001 2.072.123 3.872.178 1.372.043 2.582.04 2.582.04a.339.339 0 1 0 0-.678M23.067 13.855s1.21.003 2.582-.04c1.8-.055 3.873-.18 3.873-.18a.12.12 0 0 0 0-.238s-2.072-.125-3.873-.18c-1.372-.043-2.582-.04-2.582-.04a.338.338 0 1 0 0 .678" />

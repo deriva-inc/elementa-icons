@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const MoneyOut2 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const MoneyOut2 = ({
             viewBox="0 0 32 27"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M19.113 6.541s1.558-1.423 3.04-2.89c.732-.725 1.425-1.468 1.943-2.002a.3.3 0 0 1 .094-.058.3.3 0 0 1 .105-.02q.056-.002.106.019c.034.014.07.029.095.057.521.533 1.218 1.27 1.95 1.995 1.483 1.467 3.032 2.9 3.032 2.9a.182.182 0 0 0 .275-.24s-1.202-1.734-2.447-3.407c-.614-.827-1.247-1.62-1.702-2.21a1.707 1.707 0 0 0-2.62-.002c-.457.588-1.095 1.378-1.71 2.204-1.245 1.673-2.437 3.415-2.437 3.415a.182.182 0 1 0 .276.24" />
             <path d="M24.973 15.39s.006-2.447-.079-5.221c-.11-3.64-.36-7.831-.36-7.831a.239.239 0 0 0-.477 0s-.25 4.19-.361 7.831c-.085 2.774-.078 5.221-.078 5.221a.677.677 0 0 0 1.355 0" />

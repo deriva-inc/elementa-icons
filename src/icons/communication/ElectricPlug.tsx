@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const ElectricPlug = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const ElectricPlug = ({
             viewBox="0 0 29 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M16.581 5.77s-1.893 2.304-3.494 4.361c-1.217 1.563-2.242 2.965-2.242 2.965a1.05 1.05 0 0 0 .881 1.624s1.494.097 2.99.096c.432 0 .862-.009 1.257-.02-.346.7-.76 1.548-1.166 2.404-.98 2.063-1.891 4.13-1.891 4.13a.225.225 0 1 0 .388.229s1.371-1.796 2.707-3.647c1.329-1.842 2.6-3.71 2.6-3.71a1.05 1.05 0 0 0-.904-1.583s-1.493-.099-2.99-.099c-.395 0-.789.007-1.156.017.256-.467.545-.998.84-1.553 1.226-2.3 2.56-4.97 2.56-4.97a.226.226 0 0 0-.38-.244M13.309 28.318l-1.22.127a.35.35 0 0 0 0 .7l1.218.132a.48.48 0 0 0 .002-.96M13.309 25.37l-1.22.128a.35.35 0 0 0 0 .7l1.218.132a.48.48 0 0 0 .002-.96" />
             <path d="m13.932 30.23 1.956.061a3.03 3.03 0 0 0 2.182-.85 3.07 3.07 0 0 0 .936-2.183v-.002a3.1 3.1 0 0 0-.232-1.195 3.1 3.1 0 0 0-.68-1.012 3.05 3.05 0 0 0-1.02-.66 3 3 0 0 0-1.186-.2l-2.134.098a.34.34 0 0 0-.34.341l.28 4.704a.06.06 0 0 0 .12 0l.26-4.349 1.814.083c.288.01.566.085.824.2.255.114.488.276.686.48.2.201.353.438.46.694.107.257.166.533.168.816v.002c.003.285-.048.564-.151.823a2.189 2.189 0 0 1-1.147 1.204 2.2 2.2 0 0 1-.84.196l-1.956.061a.344.344 0 0 0 0 .689" />

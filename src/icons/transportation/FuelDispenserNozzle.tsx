@@ -6,16 +6,24 @@ import { IconComponentProps } from '@/src/lib/types'; // Import styles.
  * This function renders an SVG icon.
  */
 const FuelDispenserNozzle = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -24,9 +32,10 @@ const FuelDispenserNozzle = ({
             viewBox="0 0 33 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M14.286 9.997s.416-.46.815-1.04c.54-.78 1.04-1.721 1.04-1.721a.239.239 0 0 0-.358-.316s-.871.613-1.58 1.243c-.525.468-.932.937-.932.937a.678.678 0 0 0 1.015.897" />
             <path d="M20.34 30.564c-.204.049-.844.166-1.39-.227-.334-.24-.628-.657-.794-1.352l-2.98-13.42a.036.036 0 0 0-.043-.03.037.037 0 0 0-.03.043l2.204 13.586c.181.993.6 1.585 1.054 1.95.9.723 2.02.536 2.256.488l.142-.045 5.894-2.256a1.47 1.47 0 0 0 1.773.372l2.953-1.393a1.638 1.638 0 0 0 .79-2.101l-4.654-11.231.182-.235a2.08 2.08 0 0 0-.241-2.813L21.97 6.914a2.14 2.14 0 0 0-1.47-.555 2.13 2.13 0 0 0-1.449.601l-.626.613-5.598-4.443a.84.84 0 0 0-.318-.161L3.503.772A1.65 1.65 0 0 0 2.257.96a1.63 1.63 0 0 0-.733 1.01l-.317 1.403a1.57 1.57 0 0 0 1.064 1.858l7.897 2.33.04.017 3.53 2.853.065.098.966 4.475a.197.197 0 0 0 .386-.075l-.758-4.514a.81.81 0 0 0-.259-.458l-3.393-3.012-.322-.183-7.794-2.656a.36.36 0 0 1-.219-.435l.374-1.388.151-.18.223-.017 8.739 2.453 5.372 4.495c.36.299.805.433 1.243.419a1.84 1.84 0 0 0 1.212-.512l.647-.61a.22.22 0 0 1 .15-.054c.052 0 .101.025.142.062l5.442 5.034.014.124-.39.512a1.38 1.38 0 0 0-.173 1.386l5.097 11.434.014.018-2.893 1.515-.048.008-.196-.226a.93.93 0 0 0-1.073-.263z" />

@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const RupeeTransfer2 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const RupeeTransfer2 = ({
             viewBox="0 0 29 22"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M18.72 9.823c.247.37.532.781.838 1.205a131 131 0 0 0 2.664 3.532.244.244 0 0 0 .422-.242s-.853-2.17-1.695-4.086a41 41 0 0 0-.743-1.598c-.233-.476-.437-.842-.54-1.04a1.094 1.094 0 0 0-1.907 0c-.136.267-.452.84-.805 1.562-.162.33-.33.69-.494 1.065-.838 1.922-1.677 4.097-1.677 4.097a.243.243 0 1 0 .422.242s1.45-1.826 2.682-3.522a27 27 0 0 0 .832-1.215" />
             <path d="m24.053 19.055-.164-.25a27 27 0 0 0-.668-.966c-1.232-1.696-2.682-3.521-2.682-3.521a.244.244 0 0 0-.423.241s.84 2.176 1.677 4.097c.164.376.332.735.494 1.066.353.721.67 1.295.806 1.561a1.1 1.1 0 0 0 .954.554 1.1 1.1 0 0 0 .953-.554c.103-.198.306-.564.54-1.04.226-.46.485-1.01.743-1.597a131 131 0 0 0 1.695-4.087.244.244 0 0 0-.423-.241s-1.438 1.834-2.664 3.532c-.305.423-.59.835-.838 1.205M19.39 20.939s.007-1.828-.077-3.9c-.111-2.723-.36-5.85-.36-5.85a.24.24 0 0 0-.478 0s-.25 3.127-.36 5.85c-.085 2.072-.079 3.9-.079 3.9a.677.677 0 0 0 1.355 0" />

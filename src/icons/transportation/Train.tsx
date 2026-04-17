@@ -6,16 +6,24 @@ import { IconComponentProps } from '@/src/lib/types'; // Import styles.
  * This function renders an SVG icon.
  */
 const Train = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -24,9 +32,10 @@ const Train = ({
             viewBox="0 0 28 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M7.738 18.35a1.68 1.68 0 0 0-1.273.085c-.44.206-.736.614-.88 1.101-.119.521.004 1.049.309 1.456.29.388.753.654 1.283.727.519.048 1.014-.077 1.385-.368.374-.292.642-.71.68-1.205a1.82 1.82 0 0 0-.442-1.292c-.287-.33-.676-.57-1.113-.595a.018.018 0 1 0-.006.037c.38.106.68.386.87.732.174.319.233.693.142 1.026-.078.299-.293.518-.55.659a1.13 1.13 0 0 1-.813.086 1.1 1.1 0 0 1-.65-.416c-.16-.2-.277-.438-.25-.706.014-.302.135-.57.35-.762.249-.22.56-.371.926-.37a.098.098 0 0 0 .032-.194M20.742 18.35a1.68 1.68 0 0 0-1.273.085c-.439.206-.735.614-.88 1.101-.118.521.005 1.049.31 1.456.29.388.753.654 1.282.727.52.048 1.014-.077 1.386-.368.374-.292.642-.71.68-1.205a1.82 1.82 0 0 0-.442-1.292c-.287-.33-.677-.57-1.113-.595a.018.018 0 1 0-.006.037c.379.106.68.386.869.732.175.319.234.693.142 1.026-.078.299-.292.518-.55.659a1.13 1.13 0 0 1-.812.086 1.1 1.1 0 0 1-.65-.416c-.16-.2-.278-.438-.25-.706.013-.302.135-.57.35-.762.249-.22.559-.371.925-.37a.098.098 0 0 0 .032-.194" />
             <ellipse

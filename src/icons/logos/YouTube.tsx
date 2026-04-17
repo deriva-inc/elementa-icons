@@ -11,16 +11,23 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of the YouTube logo.
  */
 const YouTube = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -28,6 +35,7 @@ const YouTube = ({
             }}
             viewBox="0 0 33 23"
             height={height}
+            className={combinedClassName}
         >
             <path
                 d="M724 1425.29h31.271v22.253H724z"

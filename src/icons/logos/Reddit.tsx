@@ -11,16 +11,23 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of the Reddit logo.
  */
 const Reddit = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -28,6 +35,7 @@ const Reddit = ({
             }}
             viewBox="0 0 31 31"
             height={height}
+            className={combinedClassName}
         >
             <g transform="matrix(.95823 0 0 .96677 -727.46 -1836.718)">
                 <path

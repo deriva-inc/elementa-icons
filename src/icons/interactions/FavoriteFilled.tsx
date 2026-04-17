@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a favorite (filled).
  */
 const FavoriteFilled = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const FavoriteFilled = ({
             viewBox="0 0 32 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M14.92 1.216a.75.75 0 0 1 1.427 0l3.282 10.102h10.62c.326 0 .614.21.715.518s-.01.648-.274.84l-8.592 6.241 3.283 10.102a.75.75 0 0 1-1.155.838l-8.592-6.242-8.593 6.242a.75.75 0 0 1-1.154-.838l3.282-10.102S3.584 14.861.577 12.675a.75.75 0 0 1-.273-.839c.1-.309.389-.518.713-.518h10.621z" />
             <path

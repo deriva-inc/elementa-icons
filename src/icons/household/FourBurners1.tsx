@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const FourBurners1 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const FourBurners1 = ({
             viewBox="0 0 32 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="m12.321 17.833.017 1.657c.007.366.151.7.394.94.24.237.565.391.929.394.184.003.36-.004.548-.021.166-.016.343-.039.546-.069l-.094.513-.001.019a.563.563 0 0 0 .567.581l3.96-.126a.252.252 0 0 0 .213-.387.92.92 0 0 1-.162-.584c.015-.379.155-.759.145-1.155v-.01a.246.246 0 0 1 .115-.232c.454-.305.877-.749 1.19-1.255.314-.509.518-1.075.538-1.61.001-.01-.006-.02-.017-.02q-.017 0-.02.017c-.064.515-.31 1.043-.654 1.51a4 4 0 0 1-1.204 1.088.57.57 0 0 0-.302.517c-.024.458-.252.887-.246 1.336q.002.132.03.267l-3.327-.112c.046-.165.109-.312.13-.448a.9.9 0 0 0-.01-.32.4.4 0 0 0-.033-.09.68.68 0 0 0-.701-.376c-.286.033-.514.056-.724.065l-.46-.002a.42.42 0 0 1-.39-.43l.019-1.815a.836.836 0 0 0-.84-.841h-.115l.758-1.45a.5.5 0 0 0 .055-.207c.035-2.77 2.112-4.081 4.11-3.965 2.03.117 3.963 1.668 3.86 4.656a.098.098 0 1 0 .195.012c.317-3.268-1.782-5.055-4-5.302-2.36-.262-4.863 1.213-5.102 4.449l-1.137 2.071a.498.498 0 0 0 .439.733z" />
             <path

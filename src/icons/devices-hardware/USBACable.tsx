@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a USB-A cable.
  */
 const USBACable = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const USBACable = ({
             viewBox="0 0 28 25"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M17.104 13.191a4.86 4.86 0 0 1 1.504 3.388 4.7 4.7 0 0 1-1.243 3.353c-.84.942-1.983 1.436-3.15 1.518-1.162.082-2.36-.247-3.32-1.058a4.74 4.74 0 0 1-1.69-3.132c-.133-1.211.195-2.46 1.06-3.434.893-1.01 1.929-1.592 3.05-1.74 1.113-.146 2.303.125 3.518.81.018.011.042.005.053-.013a.04.04 0 0 0-.013-.053c-1.212-.788-2.429-1.136-3.588-1.055-1.224.085-2.381.648-3.412 1.683-1.049 1.061-1.5 2.473-1.414 3.866a5.55 5.55 0 0 0 1.835 3.765 5.42 5.42 0 0 0 3.995 1.355 5.4 5.4 0 0 0 3.732-1.946c.932-1.163 1.33-2.589 1.169-3.962a5.17 5.17 0 0 0-1.958-3.493.098.098 0 1 0-.128.149" />
             <path d="M9.717 22.716c-1.472-1.211-2.293-2.898-2.48-4.658a6.6 6.6 0 0 1 1.386-4.82c1.05-1.4 2.578-2.204 4.181-2.462 1.595-.257 3.29.028 4.72 1.022a6.62 6.62 0 0 1 2.786 4.112c.356 1.674.083 3.466-.989 4.95-1.115 1.56-2.492 2.537-4.058 2.91-1.567.372-3.304.16-5.14-.639a.077.077 0 1 0-.067.138c1.848 1.005 3.652 1.365 5.326 1.115 1.78-.266 3.401-1.23 4.788-2.862 1.421-1.691 1.909-3.83 1.614-5.875-.297-2.056-1.42-4-3.188-5.347-1.83-1.346-4.042-1.846-6.119-1.491-2.07.354-3.989 1.55-5.263 3.421-1.195 1.86-1.581 4.02-1.127 6.02a7.56 7.56 0 0 0 3.402 4.786.196.196 0 0 0 .228-.32" />

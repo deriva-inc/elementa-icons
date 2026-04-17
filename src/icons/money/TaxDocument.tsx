@@ -11,16 +11,24 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const TaxDocument = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#FCFCFD]', className]
+        .filter(Boolean)
+        .join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +37,10 @@ const TaxDocument = ({
             viewBox="0 0 26 30"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M5.31 22.666s3.26-.004 6.954-.063c4.843-.076 10.437-.237 10.437-.237a.35.35 0 0 0 .345-.343.347.347 0 0 0-.346-.346s-5.588-.18-10.432-.276c-3.696-.073-6.957-.09-6.957-.09a.676.676 0 0 0-.002 1.355M5.306 25.369s2.25-.007 4.8-.068c3.344-.079 7.201-.242 7.201-.242a.343.343 0 0 0 .344-.344.34.34 0 0 0-.344-.346s-3.856-.177-7.198-.27c-2.55-.07-4.8-.085-4.8-.085a.677.677 0 0 0-.002 1.355M4.994 12.004s1.03.006 2.195-.079c1.543-.11 3.295-.36 3.295-.36a.238.238 0 0 0 0-.477s-1.752-.25-3.295-.36c-1.165-.085-2.195-.08-2.195-.08a.677.677 0 0 0 0 1.356M8.19 17.39s.005-.946-.08-2.016c-.11-1.418-.36-3.023-.36-3.023a.238.238 0 1 0-.477 0s-.25 1.605-.36 3.023c-.085 1.07-.079 2.015-.079 2.015a.679.679 0 0 0 1.355 0M11.223 16.034s.73.006 1.55-.078c1.1-.113 2.326-.36 2.326-.36a.24.24 0 0 0 .238-.24.24.24 0 0 0-.238-.237s-1.226-.249-2.326-.36c-.82-.086-1.55-.08-1.55-.08a.678.678 0 0 0 0 1.355" />
             <path d="M11.85 17.584s.805-1.95 1.47-3.652l.444-1.158 2.106 5.07c.043.124.181.189.305.144a.24.24 0 0 0 .144-.306l-2.062-6.608a.556.556 0 0 0-1.032-.024s-.52 1.115-1.082 2.393c-.734 1.675-1.544 3.623-1.544 3.623a.676.676 0 1 0 1.25.518M16.827 12.09s.788 1.14 1.753 2.379c1.275 1.633 2.83 3.431 2.83 3.431a.24.24 0 0 0 .393-.274s-1.147-2.082-2.238-3.842c-.827-1.336-1.625-2.47-1.625-2.47a.679.679 0 0 0-1.113.776" />
