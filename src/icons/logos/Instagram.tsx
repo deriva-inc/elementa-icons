@@ -11,16 +11,21 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of the Instagram logo.
  */
 const Instagram = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -28,6 +33,7 @@ const Instagram = ({
             }}
             viewBox="0 0 32 33"
             height={height}
+            className={combinedClassName}
         >
             <ellipse
                 cx={621.368}

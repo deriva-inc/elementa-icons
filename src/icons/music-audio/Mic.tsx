@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a microphone.
  */
 const Mic = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const Mic = ({
             viewBox="0 0 23 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="m2.156 18.888-.586.713 2.081 2.315.817-.498M18.083 9.973a5 5 0 0 0 1.164-.408 5.175 5.175 0 0 0 2.825-3.956c.181-1.355-.25-2.708-1.181-3.764C19.898.786 18.514.273 17.107.343a4.9 4.9 0 0 0-1.61.36 5.5 5.5 0 0 0-2.762 2.522 5.3 5.3 0 0 0-.47 1.276.72.72 0 0 0 .179.716s.935.791 2.022 1.677a292 292 0 0 0 3.082 2.466.04.04 0 0 0 .053 0 .04.04 0 0 0 0-.052s-1.303-1.654-2.467-3.083a165 165 0 0 0-1.347-1.63q.15-.275.335-.53a4.2 4.2 0 0 1 .655-.71c.353-.32.757-.54 1.166-.713a4 4 0 0 1 1.287-.306c.87-.062 1.747.152 2.403.767a3.23 3.23 0 0 1 1.087 2.422c.01.962-.3 1.956-.997 2.775a4.5 4.5 0 0 1-1.755 1.298.196.196 0 1 0 .115.375" />
             <path d="M12.323 5.44S8.83 9.434 5.866 12.962c-2.258 2.688-4.193 5.1-4.193 5.1a.97.97 0 0 0 .077 1.269l2.327 2.417a.996.996 0 0 0 1.374.047s.803-.726 1.973-1.845c.83-.794 1.841-1.783 2.9-2.834.954-.946 1.937-1.937 2.86-2.879 2.323-2.37 4.236-4.38 4.236-4.38a.037.037 0 0 0 .003-.052.037.037 0 0 0-.052-.003s-2.218 1.668-4.84 3.7a285 285 0 0 0-6.344 5.06c-.539.447-.998.834-1.345 1.13l-1.128-1.137a333 333 0 0 0 3.334-4.687c2.637-3.779 5.586-8.19 5.586-8.19a.196.196 0 1 0-.31-.238" />

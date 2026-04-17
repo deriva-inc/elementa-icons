@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const Puzzle = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const Puzzle = ({
             viewBox="0 0 31 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="m14.188 25.042-9.815-.308a2.452 2.452 0 0 1-1.717-.779 2.4 2.4 0 0 1-.644-1.716c.056-2.307.153-5.652.218-9s.097-6.695.13-9a2 2 0 0 1 .598-1.415c.363-.362.862-.59 1.415-.591 2.306-.04 5.653-.074 9-.154 3.349-.081 6.693-.207 9-.278a2.48 2.48 0 0 1 1.783.655c.482.447.802 1.073.83 1.783l.35 8.644c0 .02.017.037.037.037s.037-.017.037-.037l.35-8.644a3.42 3.42 0 0 0-.927-2.46 3.5 3.5 0 0 0-2.46-1.103c-2.307-.071-5.651-.197-9-.277-3.347-.081-6.694-.115-9-.155A3.973 3.973 0 0 0 .385 4.239c.034 2.305.066 5.652.13 9 .066 3.348.163 6.693.219 9a3.62 3.62 0 0 0 1.113 2.526 3.53 3.53 0 0 0 2.526.979l9.815-.31a.196.196 0 0 0 0-.392" />
             <path d="m25.194 13.092-3.19-.165a.32.32 0 0 0-.321.32c-.077 1.527-1.111 2.222-2.144 2.163-.967-.055-1.891-.814-1.859-2.17a.674.674 0 0 0-.674-.666s-1.93-.061-3.602-.072c-.666-.005-1.292 0-1.736.005-.323-1.788-1.735-2.623-3.143-2.537-1.412.087-2.841 1.09-2.877 2.96l-4.274.29a.03.03 0 0 0-.028.029c0 .015.012.028.028.028l4.625.315a.34.34 0 0 0 .344-.346c.07-1.458 1.15-2.158 2.2-2.124.944.03 1.825.738 1.73 2.104a.73.73 0 0 0 .73.755s1.125.024 2.401.015c1.103-.007 2.317-.036 3.016-.055.368 1.69 1.745 2.55 3.103 2.512 1.378-.04 2.763-.972 2.808-2.901l2.864-.166a.147.147 0 0 0-.001-.294" />

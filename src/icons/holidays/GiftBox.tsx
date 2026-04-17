@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a gift box.
  */
 const GiftBox = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const GiftBox = ({
             viewBox="0 0 26 33"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M14.068 14.222s.016 2.962.089 6.319c.094 4.4.274 9.475.274 9.475 0 .19.155.345.346.346a.346.346 0 0 0 .343-.345s.16-5.08.239-9.48c.058-3.355.064-6.317.064-6.317a.677.677 0 1 0-1.355.002M11.53 30.02s-.005-3.058-.064-6.523c-.078-4.541-.238-9.787-.238-9.787a.347.347 0 0 0-.344-.344.346.346 0 0 0-.345.345s-.18 5.24-.275 9.783c-.073 3.465-.089 6.523-.089 6.523a.679.679 0 1 0 1.355.002" />
             <path d="m2.218 20.026 8.05-.119a.572.572 0 0 0-.004-1.146l-8.048-.09a.68.68 0 0 0-.677.679.68.68 0 0 0 .68.676M15.48 19.839l7.768-.185a.347.347 0 0 0 .346-.345.35.35 0 0 0-.345-.344l-7.775-.155a.516.516 0 0 0-.514.516.52.52 0 0 0 .52.513M22.925 21.885l-7.989.089a.574.574 0 0 0-.004 1.146l7.99.12a.678.678 0 1 0 .003-1.355M10.431 22.059l-8.389.144c-.19 0-.34.154-.344.344.003.19.156.345.346.345l8.387.177a.506.506 0 0 0 0-1.01" />

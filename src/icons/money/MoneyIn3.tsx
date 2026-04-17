@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const MoneyIn3 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const MoneyIn3 = ({
             viewBox="0 0 33 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M16.406 7.317a10 10 0 0 0-.561-.535c-.64-.56-1.354-1.126-1.354-1.126a.122.122 0 0 0-.184.16s.461.786.926 1.497q.134.204.265.384c.172.236.33.43.424.552a.64.64 0 0 0 .749.163.6.6 0 0 0 .217-.164c.054-.069.13-.16.214-.274.138-.186.303-.418.468-.667.468-.707.933-1.492.933-1.492a.122.122 0 0 0-.183-.16s-.712.57-1.346 1.134a16 16 0 0 0-.568.528m-.25.258-.02.02zm.496-.003.023.024-.014-.015z" />
             <path d="M16.067 3.427s-.004.63.039 1.342c.055.94.18 2.012.18 2.012a.12.12 0 0 0 .239 0s.124-1.073.18-2.012c.042-.713.039-1.342.039-1.342a.339.339 0 0 0-.677 0M23.955 10.452a10 10 0 0 0 .154-.764c.133-.838.231-1.742.231-1.742a.122.122 0 0 0-.233-.07s-.419.806-.772 1.578q-.102.22-.184.428c-.107.269-.186.505-.24.651a.65.65 0 0 0 .263.727.64.64 0 0 0 .256.097c.088.009.206.024.345.035.231.017.515.033.813.04.847.019 1.755-.006 1.755-.006a.122.122 0 0 0 .037-.24s-.859-.298-1.672-.535c-.272-.079-.534-.147-.753-.199m-.083.337-.008.032.005-.018z" />

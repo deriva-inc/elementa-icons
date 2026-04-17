@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a potato chips packet.
  */
 const PotatoChips = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const PotatoChips = ({
             viewBox="0 0 30 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M4 5.39s3.99.003 8.515-.04c5.93-.054 12.773-.18 12.773-.18a.12.12 0 0 0 0-.238s-6.844-.125-12.773-.18C7.991 4.709 4 4.712 4 4.712a.338.338 0 1 0 0 .678M4.196 25.332s3.954.003 8.437-.04c5.875-.054 12.656-.18 12.656-.18a.12.12 0 0 0 .12-.12.12.12 0 0 0-.12-.118s-6.781-.125-12.656-.18c-4.483-.043-8.437-.04-8.437-.04a.338.338 0 1 0 0 .678" />
             <path d="M3.433 4.924 1.805 1.343c4.378.353 8.752.575 13.126.651 4.104.071 8.206.013 12.305-.163L25.82 4.638a.83.83 0 0 0-.08.442c.281 3.335.399 6.643.375 9.923a101 101 0 0 1-.54 9.9c-.018.18.013.363.09.527l1.202 2.527a169 169 0 0 0-11.97-.263c-4.22.063-8.42.305-12.607.681l1.426-3.135a.5.5 0 0 0 .045-.298 62 62 0 0 1-.945-9.476c-.07-3.101.08-6.28.477-9.551a.037.037 0 0 0-.03-.042.037.037 0 0 0-.042.031 66 66 0 0 0-.966 9.561c-.085 3.23.084 6.381.477 9.465L.766 28.811a.605.605 0 0 0 .59.863c4.502-.263 9.014-.337 13.544-.274 4.49.061 8.994.257 13.515.642a.993.993 0 0 0 .972-1.418l-1.799-3.803c.295-3.248.438-6.521.406-9.82-.03-3.263-.23-6.548-.574-9.857l1.785-3.804a.767.767 0 0 0-.741-1.102C23.96.61 19.45.829 14.931.911 10.415.993 5.895.94 1.365.737a.285.285 0 0 0-.275.406l1.99 3.95a.196.196 0 0 0 .353-.169" />

@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a basketball.
  */
 const Basketball = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const Basketball = ({
             viewBox="0 0 30 30"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M6.501 25.568c-2.681-2.433-4.11-5.717-4.29-9.072-.174-3.266.863-6.6 3.207-9.234 2.268-2.624 5.389-4.046 8.595-4.311 3.198-.263 6.504.626 9.165 2.836a12.99 12.99 0 0 1 4.676 8.562c.38 3.304-.51 6.718-2.86 9.386-2.407 2.747-5.211 4.329-8.25 4.74-2.993.403-6.202-.316-9.478-2.151a.077.077 0 0 0-.078.132c3.272 2.041 6.536 2.914 9.626 2.64 3.242-.287 6.29-1.835 8.973-4.633 2.716-2.848 3.845-6.59 3.556-10.258-.29-3.664-2.015-7.245-4.979-9.825C21.334 1.787 17.53.64 13.844.964c-3.68.323-7.222 2.105-9.75 5.18-2.45 3.07-3.468 6.833-3.045 10.452a13.76 13.76 0 0 0 5.2 9.272.196.196 0 1 0 .252-.3" />
             <path d="M6.897 25.873c-.012-2.897.384-5.53 1.079-7.932a26 26 0 0 1 1.973-4.907q.616-1.184 1.33-2.285c.483-.746.99-1.467 1.539-2.159a28 28 0 0 1 2.13-2.386 29.5 29.5 0 0 1 3.693-3.127c.008-.005.01-.017.005-.026-.006-.008-.018-.01-.026-.005a28 28 0 0 0-4.027 2.767q-1.265 1.05-2.376 2.266a22 22 0 0 0-1.727 2.139 20.1 20.1 0 0 0-2.52 4.886q-.457 1.272-.764 2.64c-.555 2.486-.735 5.195-.505 8.137a.098.098 0 1 0 .196-.008" />

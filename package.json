@@ -37,7 +37,10 @@
         "build:watch": "rollup -c -w",
         "prepublishOnly": "npm run build",
         "publish:npm": "npm publish --access public",
-        "svgr": "svgr src/icons/*.svg --stdin-filepath .prettierrc --template src/lib/template.js --expand-props none --ignore-existing"
+        "svgr": "svgr src/icons/*.svg --stdin-filepath .prettierrc --template src/lib/template.js --expand-props none --ignore-existing",
+        "version:patch": "npm version patch --no-git-tag-version",
+        "version:minor": "npm version minor --no-git-tag-version",
+        "version:major": "npm version major --no-git-tag-version"
     },
     "peerDependencies": {
         "react": "^19.1.0"

@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of appliances.
  */
 const Appliances = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const Appliances = ({
             viewBox="0 0 32 32"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M21.678 19.534a3.92 3.92 0 0 0-2.109 2.396c-.337 1.046-.191 2.225.314 3.376a4.56 4.56 0 0 0 2.867 2.363c.613.17 1.267.202 1.905.097a4.7 4.7 0 0 0 1.768-.68c1.088-.725 1.821-1.791 2.05-2.984.218-1.14.034-2.366-.675-3.4-.666-.953-1.53-1.586-2.486-1.83a3.7 3.7 0 0 0-2.89.44.037.037 0 1 0 .033.066c.92-.364 1.851-.336 2.672.028.743.33 1.364.954 1.778 1.818.4.815.405 1.708.14 2.506a3.08 3.08 0 0 1-1.549 1.77 3.1 3.1 0 0 1-1.11.316c-.384.043-.767.01-1.137-.079-.738-.176-1.437-.573-1.866-1.267-.507-.735-.752-1.532-.683-2.31.076-.858.437-1.666 1.19-2.296a.196.196 0 1 0-.212-.33" />
             <path

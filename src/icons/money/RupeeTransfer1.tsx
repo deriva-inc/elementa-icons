@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const RupeeTransfer1 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const RupeeTransfer1 = ({
             viewBox="0 0 28 33"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M8.887 22.86c-1.568-1.49-2.364-3.469-2.43-5.475a7.53 7.53 0 0 1 1.982-5.376c1.325-1.509 3.142-2.3 4.999-2.45 1.849-.15 3.762.34 5.306 1.61a7.57 7.57 0 0 1 2.783 4.958c.246 1.938-.241 3.95-1.602 5.536-1.412 1.659-3.065 2.63-4.873 2.901-1.802.27-3.741-.134-5.734-1.211a.077.077 0 0 0-.105.027.077.077 0 0 0 .027.105c1.988 1.284 3.983 1.841 5.881 1.701 2.012-.147 3.91-1.086 5.597-2.796 1.726-1.764 2.454-4.104 2.299-6.407-.156-2.313-1.235-4.574-3.086-6.221-1.914-1.653-4.326-2.4-6.662-2.19-2.33.208-4.569 1.36-6.155 3.32-1.506 1.955-2.131 4.324-1.819 6.592a8.49 8.49 0 0 0 3.34 5.677.196.196 0 1 0 .252-.3" />
             <path d="M10.167 13.911s1.467.005 3.129-.058c2.184-.083 4.693-.27 4.693-.27a.18.18 0 0 0 0-.358s-2.51-.188-4.693-.272c-1.662-.062-3.129-.058-3.129-.058a.508.508 0 0 0 0 1.016M12.306 16.623s.872.005 1.859-.058c1.303-.084 2.788-.27 2.788-.27a.18.18 0 0 0 0-.359s-1.485-.186-2.788-.27c-.987-.063-1.859-.059-1.859-.059a.508.508 0 0 0 0 1.016" />

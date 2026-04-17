@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const Calculator = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const Calculator = ({
             viewBox="0 0 31 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M29.82 4.319q-.003.015-.002.029c0 .109.088.196.195.196 0 0 .193-.055.2-.271.003-.122.01-.376.021-.682a2.24 2.24 0 0 0-.616-1.604 2.29 2.29 0 0 0-1.605-.714c-3.018-.08-8.958-.262-14.406-.386C9.75.799 6.143.749 4.004.71c-.8-.014-1.525.31-2.056.825a2.9 2.9 0 0 0-.87 2.056C1.06 6.159 1 10.848 1.003 15.536c.003 4.688.073 9.377.093 11.945.008.8.333 1.524.865 2.043a2.87 2.87 0 0 0 2.042.827l24.009-.364c.331-.007.656-.075.954-.205a2.48 2.48 0 0 0 1.321-1.358c.118-.299.18-.618.174-.943L30.05 5.578a.036.036 0 0 0-.037-.036.04.04 0 0 0-.037.036l-.41 21.903a1.53 1.53 0 0 1-.974 1.393 1.5 1.5 0 0 1-.58.1l-24.008-.363a1.12 1.12 0 0 1-.786-.345 1.1 1.1 0 0 1-.307-.785c.02-2.568.088-7.257.093-11.945.003-4.688-.058-9.377-.074-11.945a1.09 1.09 0 0 1 .3-.773c.198-.204.469-.34.774-.346 2.139-.039 5.745-.089 9.603-.177 5.448-.124 11.388-.305 14.406-.386.472-.015.905.159 1.224.457.328.308.54.74.557 1.225l.02.682q0 .024.006.046" />
             <path d="M16.685 29.481s.007-5.229-.077-11.156c-.111-7.769-.36-16.735-.36-16.735a.236.236 0 0 0-.24-.236.236.236 0 0 0-.238.238s-.25 8.965-.362 16.734c-.083 5.926-.077 11.155-.077 11.155a.678.678 0 0 0 1.354 0" />

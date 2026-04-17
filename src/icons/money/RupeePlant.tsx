@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const RupeePlant = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const RupeePlant = ({
             viewBox="0 0 16 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M6.317 2.342s.564.002 1.203-.021c.84-.03 1.805-.096 1.805-.096a.063.063 0 0 0 .063-.064.063.063 0 0 0-.063-.063S8.36 2.03 7.52 2.002c-.639-.023-1.203-.021-1.203-.021-.1 0-.18.08-.18.18s.08.18.18.18M7.139 3.38s.335.003.715-.02c.5-.03 1.072-.096 1.072-.096a.064.064 0 0 0 0-.127s-.571-.067-1.072-.096c-.38-.023-.715-.021-.715-.021a.18.18 0 0 0 0 .36" />
             <path d="M7.621 2.2q-.001-.014-.005-.014c-.014.004-.007.01.005.014q0 .005.003.01l.064.242c.045.167.096.387.137.615.025.14.04.28.04.407.001.098-.005.185-.057.243-.045.05-.122.061-.237.057a2.3 2.3 0 0 1-.65-.138.215.215 0 0 0-.262.31c.21.296.451.593.692.864.59.66 1.155 1.166 1.155 1.166a.01.01 0 0 0 .015 0 .01.01 0 0 0 0-.013s-.374-.473-.799-1.098c-.134-.197-.272-.41-.404-.626q.214.053.369.05a.67.67 0 0 0 .519-.218.7.7 0 0 0 .166-.42 1.4 1.4 0 0 0-.076-.519 2.6 2.6 0 0 0-.191-.434 3 3 0 0 0-.226-.35c-.07-.096-.126-.16-.154-.194l-.016-.02c-.017-.018-.028-.009-.035.01 0-.04-.02-.042-.038-.031a.05.05 0 0 0-.02.07l.045.027s-.024-.004-.04-.01" />

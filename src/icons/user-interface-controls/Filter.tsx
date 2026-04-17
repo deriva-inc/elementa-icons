@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon of a filter.
  */
 const Filter = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const Filter = ({
             viewBox="0 0 26 23"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <g transform="matrix(1.00639 0 0 1.00434 -836.38 -357.517)">
                 <path d="M832.062 359.455s1.957.18 4.77.344c.884.052 1.846.096 2.862.127.621.019 1.259.034 1.907.034.754 0 1.522-.012 2.29-.04 1.16-.041 2.316-.113 3.434-.188 4.681-.31 8.585-.672 8.585-.672a.1.1 0 0 0 .103-.102.1.1 0 0 0-.103-.101s-3.904-.362-8.585-.672a109 109 0 0 0-3.434-.189 63 63 0 0 0-2.29-.04c-.648 0-1.286.015-1.907.035-1.016.03-1.978.075-2.862.126-2.813.165-4.77.344-4.77.344a.497.497 0 0 0 0 .994M832.062 367.416s1.957.181 4.77.346c.884.051 1.846.097 2.862.128a63.045 63.045 0 0 0 4.197-.003c1.16-.041 2.316-.113 3.434-.187a384 384 0 0 0 8.585-.668.109.109 0 0 0 0-.217s-3.904-.358-8.585-.668a114 114 0 0 0-3.434-.187 63 63 0 0 0-4.197-.003c-1.016.031-1.978.077-2.862.128-2.813.165-4.77.346-4.77.346-.271 0-.49.22-.49.493 0 .272.219.492.49.492M832.062 375.374s1.607.155 4.007.32c.538.036 1.11.074 1.717.1 1.183.048 2.478.096 3.815.096.756 0 1.522-.028 2.29-.058a144 144 0 0 0 3.434-.192c4.68-.304 8.585-.638 8.585-.638a.114.114 0 0 0 .113-.113.114.114 0 0 0-.113-.113s-3.905-.334-8.585-.638a144 144 0 0 0-3.434-.192 57 57 0 0 0-2.29-.058c-1.337 0-2.632.048-3.815.097-.607.025-1.18.063-1.717.1-2.4.164-4.007.319-4.007.319a.484.484 0 0 0 0 .97" />

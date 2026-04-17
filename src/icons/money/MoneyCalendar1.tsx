@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders an SVG icon.
  */
 const MoneyCalendar1 = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const MoneyCalendar1 = ({
             viewBox="0 0 32 33"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M21.414 1.503v2.85a.506.506 0 0 0 1.013 0v-2.85a.507.507 0 0 0-1.013 0M5.413 1.503v2.85a.506.506 0 0 0 1.013 0v-2.85a.507.507 0 0 0-1.013 0" />
             <path d="m1.92 7.31.277-3.002a.7.7 0 0 1 .259-.465.61.61 0 0 1 .466-.128c.638.054 1.54.14 2.639.22 1.152.086 2.5.177 3.96.255.852.045 1.738.085 2.639.112.583.016 1.172.03 1.76.03a75 75 0 0 0 4.4-.128 206 206 0 0 0 3.3-.196c1.396-.094 2.539-.192 3.302-.249a.64.64 0 0 1 .469.13.7.7 0 0 1 .26.469l.269 3.001.269-3.001c.03-.36-.108-.687-.324-.943-.226-.268-.564-.425-.942-.458-.762-.06-1.905-.163-3.3-.263a206 206 0 0 0-3.298-.212c-.714-.04-1.45-.08-2.2-.105a72 72 0 0 0-2.2-.042 65 65 0 0 0-1.76.022c-.902.023-1.787.058-2.64.099-1.46.071-2.808.157-3.961.237-1.098.076-2.002.158-2.64.208a1.4 1.4 0 0 0-.528.136 1.35 1.35 0 0 0-.687.769c-.051.161-.08.33-.065.502zM8.965 12.612a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0-.75.75v1.5c0 .414.336.75.75.75h1.5a.75.75 0 0 0 .75-.75z" />

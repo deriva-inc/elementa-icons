@@ -11,16 +11,22 @@ import { IconComponentProps } from '@/src/lib/types';
  * This function renders water drops..
  */
 const WaterDrops = ({
-    color = '#000000',
+    color,
     height = '1em',
     strokeWidth = 1,
-    width = '1em'
+    width = '1em',
+    className,
+    style,
+    ...props
 }: IconComponentProps) => {
+    const resolvedColor = color ?? 'currentColor';
+    const combinedClassName = ['text-[#070B0D] dark:text-[#070B0D]', className].filter(Boolean).join(' ');
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
             style={{
+                ...style,
                 fillRule: 'evenodd',
                 clipRule: 'evenodd',
                 strokeLinejoin: 'round',
@@ -29,9 +35,10 @@ const WaterDrops = ({
             viewBox="0 0 26 31"
             height={height}
             width={width}
-            stroke={color}
+            stroke={resolvedColor}
             strokeWidth={strokeWidth}
-            fill={color}
+            fill={resolvedColor}
+            className={combinedClassName}
         >
             <path d="M10.833.486S6.677 5.99 3.683 11.479C1.966 14.624.667 17.775.613 19.922c-.06 2.84 1.088 5.44 2.996 7.317 1.879 1.85 4.501 2.973 7.384 2.992 2.879-.03 5.49-1.166 7.364-3.014 1.901-1.874 3.057-4.46 3.003-7.295a8 8 0 0 0-.05-.698q-.054-.48-.164-1.003a.752.752 0 0 0-1.474.288q.067.371.1.717.031.364.022.696c-.045 2.353-1.09 4.452-2.714 5.96a8.78 8.78 0 0 1-6.087 2.342 8.8 8.8 0 0 1-6.065-2.365c-1.617-1.505-2.671-3.59-2.721-5.937-.05-1.985 1.074-4.931 2.499-7.92C7.375 6.408 11.153.712 11.153.712a.195.195 0 0 0-.047-.273.195.195 0 0 0-.273.047" />
             <path d="M18.147 11.17c-.934-1.7-1.9-3.295-2.79-4.653-1.735-2.654-3.127-4.415-3.127-4.415a.04.04 0 0 0-.052-.009.037.037 0 0 0-.01.052s1.194 1.888 2.704 4.662a81 81 0 0 1 2.43 4.79.473.473 0 1 0 .845-.427" />
